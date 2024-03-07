@@ -1,6 +1,6 @@
 **Full Implementation Guide**
 
-The entire implementation guide (including the HTML files, definitions, validation information, etc.) may be downloaded [here](full-ig.zip).
+The entire Implementation Guide (including the HTML files, definitions, validation information, etc.) may be downloaded [here](full-ig.zip).
 
 In addition there are format specific definitions files.
 
@@ -16,18 +16,20 @@ All the examples that are used in this Implementation Guide are available for do
 - [JSON](examples.json.zip)
 - [TTL](examples.ttl.zip)
 
-## Cross Version Analysis
+The source code for this Implementation Guide can be found on the [IHE PCC.ODH Github Repo](https://github.com/IHE/PCC.ODH).
+
+#### Cross Version Analysis
 
 {% include cross-version-analysis.xhtml %}
 
-## Dependency Table
+#### Dependency Table
 
 {% include dependency-table.xhtml %}
 
-## Globals Table
+#### Globals Table
 
 {% include globals-table.xhtml %}
 
-## IP Statements
+#### IP Statements
 
 {% include ip-statements.xhtml %}
