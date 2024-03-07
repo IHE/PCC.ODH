@@ -62,44 +62,5 @@ The Occupational Data for Health (ODH) FHIR IG covers information about a patien
 
 **Known Issues and Limitations**
 
-This IG includes more extensive occupational data than typically collected in current systems. The content and structure of this IG is intended to inform clinical care, support population health, and contribute to public health activities. While there may be some overlap with administrative and billing information maintained by some systems, the information in this IG is not designed to support billing and administrative needs. While multiple retirement dates are supported, the retirement date is not linked to any specific job, or usual occupation.
-
-**Credits**
-
-Co-Editor:
-Lori Reed-Fourquet
-e-HealthSign, LLC
-lfourquet@ehealthsign.com
-
-Co-Editor:
-Rob Hausam
-Hausam Consulting
-rob@hausamconsulting.com
-
-Co-Editor:
-Mark Kramer
-MITRE Corporation
-mkramer@mitre.org
-
-This set of FHIR profiles was produced and developed through the efforts of a project of the National Institute of Occupational Safety and Health (NIOSH), the U.S. federal agency responsible for conducting research and making recommendations for the prevention of work-related injury and illness. NIOSH is a part of the U.S. Centers for Disease Control and Prevention (CDC). NIOSH consulted stakeholders in clinical care, public health, health IT, health informatics and  U.S. government agencies to develop ODH. The HL7® Public Health and Emergency Response Work Group sponsored development of this set of FHIR profiles. Co-sponsoring HL7® Work Groups were Orders and Observations (OO), Patient Administration (PA), and Clinical Quality Initiative (CQI).
-The following individuals provided subject matter expertise for this set of FHIR profiles: Genevieve Barkocy Luensman, NIOSH; Eileen Storey, Professional Services Partners, formerly NIOSH; Margaret S. Filios, NIOSH; Christina Socias-Morales, NIOSH; Lauren Brewer, NIOSH; Barbara Wallace, Professional Services Partners.
-
-
-## Authors
-
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Email/URL</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>HL7 International - Public Health</td>
-<td><a href="http://www.hl7.org/Special/committees/pher" target="_new">http://www.hl7.org/Special/committees/pher</a></td>
-</tr>
-</tbody>
-</table>
-
+This IG includes more extensive occupational data than typically collected in current systems. The content and structure of this IG is intended to inform clinical care, support population health, and contribute to public health activities. While there may be some overlap with administrative and billing information maintained by some systems, the information in this IG is not designed to support billing and administrative needs. While multiple retirement dates are supported, the retirement date is not linked to any specific job or usual occupation.
 
