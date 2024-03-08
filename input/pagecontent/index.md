@@ -16,49 +16,28 @@ The majority of adults typically spend more than a third their waking hours at w
 
 The Occupational Data for Health (ODH) FHIR IG covers information about a patient’s work, including some voluntary work, or a patient’s household members’ work. ODH is designed for the social history section of a medical record, to facilitate clinical care in multiple disciplines and delivery environments. ODH can be used for clinical decision support, population health activities and value-based care, and public health reporting. The scope of the work information in ODH includes:
 
-•	Employment Status  
-
-•	Retirement Date
-
-•	Combat Zone Period
-
-•	Past or Present Job for the patient or a household member, which includes:
-		
-		o	Past or Present Job Occupation
-		
-		o	Past or Present Job Industry
-		
-		o	Work Classification
-		
-		o	Work Schedule, which includes:
-				
-				- Weekly Work Days
-				
-				- Daily Work Hours
-		
-		o	Job Duty
-		
-		o	Occupational Hazard
-		
-		o	Employer name
-		
-		o	Employer address
-		
-		o	Related Subject (when it is Past or Present Job of a household member of the person)
-		
-		o	Start/End Dates
-
-•	Usual Work of the patient or a household member, which includes:
-		
-		o	Usual Occupation
-		
-		o	Usual Industry
-		
-		o	Usual Occupation Duration
-		
-		o	Related Subject (when it is Usual Work of a household member of the person)
-		
-		o	Start Date
+- Employment Status  
+- Retirement Date
+- Combat Zone Period
+- Past or Present Job for the patient or a household member, which includes:
+  - Past or Present Job Occupation
+  - Past or Present Job Industry
+  - Work Classification
+  - Work Schedule, which includes:
+    - Weekly Work Days
+    - Daily Work Hours
+  - Job Duty
+  - Occupational Hazard
+  - Employer name
+  - Employer address
+  - Related Subject (when it is Past or Present Job of a household member of the person)
+  - Start/End Dates
+  - Usual Work of the patient or a household member, which includes:
+  - Usual Occupation
+  - Usual Industry
+  - Usual Occupation Duration
+  - Related Subject (when it is Usual Work of a household member of the person)
+  - Start Date
 
 **Known Issues and Limitations**
 
