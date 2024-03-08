@@ -215,11 +215,11 @@
         </resource>
         <page>
             <nameUrl value="index.html"/>
-            <title value="Home Page"/>
+            <title value="Occupational Data for Health (ODH) Home"/>
             <generation value="markdown"/>
             <page>
                 <nameUrl value="downloads.html"/>
-                <title value="Downloads"/>
+                <title value="Download and Analysis"/>
                 <generation value="markdown"/>
             </page>
         </page>
