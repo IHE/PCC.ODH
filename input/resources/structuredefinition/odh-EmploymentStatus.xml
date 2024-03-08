@@ -18,7 +18,7 @@
         <element id="Observation">
             <path value="Observation"/>
             <short value="Employment Status"/>
-            <definition value="The self-reported current and/or historical status about a person's economic relationship to work (e.g. having one or more jobs), including start and end dates. A person's Employment Status could change over time, for example, a person could be employed following a period of choosing to not be in the labor force. Outside of ODH, the employment arrangement between an employer and a person (one job) has sometimes been referred to as a person's ‘employment status.' However, in ODH, Employment Status is used to characterize a person, Work Classification is used to characterize a job, and Retirement Date is used to characterize a person as retired."/>
+            <definition value="The self-reported current and/or historical status about a person's economic relationship to work (e.g. having one or more jobs), including start and end dates. A person's Employment Status could change over time, for example, a person could be employed following a period of choosing to not be in the labor force. Outside of ODH, the employment arrangement between an employer and a person (one job) has sometimes been referred to as a person's 'employment status.' However, in ODH, Employment Status is used to characterize a person, Work Classification is used to characterize a job, and Retirement Date is used to characterize a person as retired."/>
             <isModifier value="false"/>
             <isSummary value="false"/>
         </element>
