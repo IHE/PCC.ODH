@@ -7,7 +7,7 @@
     <name value="EmploymentStatus"/>
     <title value="Employment Status"/>
     <status value="active"/>
-    <description value="A History of Employment Status Observation is a clinical statement about a person's relationship to working for pay, family earnings, or training (e.g. having one or more jobs, searching for work, etc.). A person’s ODH Employment Status is independent of Job characteristics, e.g., not “full-time work,” “part-time work,” &quot;self-employed,&quot; because many people have more than one job."/>
+    <description value="A History of Employment Status Observation is a clinical statement about a person's relationship to working for pay, family earnings, or training (e.g. having one or more jobs, searching for work, etc.). A person's ODH Employment Status is independent of Job characteristics, e.g., not “full-time work,” “part-time work,” &quot;self-employed,&quot; because many people have more than one job."/>
     <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
@@ -18,7 +18,7 @@
         <element id="Observation">
             <path value="Observation"/>
             <short value="Employment Status"/>
-            <definition value="The self-reported current and/or historical status about a person’s economic relationship to work (e.g. having one or more jobs), including start and end dates. A person’s Employment Status could change over time, for example, a person could be employed following a period of choosing to not be in the labor force. Outside of ODH, the employment arrangement between an employer and a person (one job) has sometimes been referred to as a person’s ‘employment status.’ However, in ODH, Employment Status is used to characterize a person, Work Classification is used to characterize a job, and Retirement Date is used to characterize a person as retired."/>
+            <definition value="The self-reported current and/or historical status about a person's economic relationship to work (e.g. having one or more jobs), including start and end dates. A person's Employment Status could change over time, for example, a person could be employed following a period of choosing to not be in the labor force. Outside of ODH, the employment arrangement between an employer and a person (one job) has sometimes been referred to as a person's ‘employment status.' However, in ODH, Employment Status is used to characterize a person, Work Classification is used to characterize a job, and Retirement Date is used to characterize a person as retired."/>
             <isModifier value="false"/>
             <isSummary value="false"/>
         </element>
@@ -168,8 +168,8 @@
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
-            <short value="A person’s employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)"/>
-            <definition value="A person’s employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)."/>
+            <short value="A person's employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)"/>
+            <definition value="A person's employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)."/>
             <type>
                 <code value="CodeableConcept"/>
             </type>
