@@ -2,24 +2,26 @@
 
 # know we are using non normative things
 INFORMATION: Observation/observation-odh-employment-status-sample: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|2.1.0
+INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[5].value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|2.1.0
 
-# yes we know these codeSystem URLs are not yet known
+# yes we know these codeSystem URLs are not yet known - https://github.com/IHE/PCC.ODH/issues/2
 INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://metadata.ilo.org/thesaurus.html' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[0].value.ofType(CodeableConcept).coding[1].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH' could not be found, so the code cannot be validated
-WARNING: Observation/observation-odh-past-or-present-job-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH was not found
 INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH' could not be found, so the code cannot be validated
-INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[5].value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|2.1.0
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.value.ofType(CodeableConcept).coding[1].system: A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.327' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.value.ofType(CodeableConcept).coding[1]: A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.327' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm' could not be found, so the code cannot be validated
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept).coding[1].system: A definition for CodeSystem 'https://metadata.ilo.org/thesaurus.html' could not be found, so the code cannot be validated
-WARNING: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, https://metadata.ilo.org/thesaurus.html was not found
 INFORMATION: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept).coding[1]: A definition for CodeSystem 'https://metadata.ilo.org/thesaurus.html' could not be found, so the code cannot be validated
+
+# Since the valueSet includes unavailable codeSystems, this valueSet can't be validated
 WARNING: ValueSet.where(id = 'odf-industriesVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm
 WARNING: ValueSet.where(id = 'odf-occupationVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://metadata.ilo.org/thesaurus.html
+WARNING: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, https://metadata.ilo.org/thesaurus.html was not found
+WARNING: Observation/observation-odh-past-or-present-job-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH was not found
 
 
 # used in an example
