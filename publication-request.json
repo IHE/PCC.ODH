@@ -1,0 +1,12 @@
+{
+    "package-id" : "ihe.pcc.odh",
+    "version" : "1.0.0-comment",
+    "path" : "https://profiles.ihe.net/PCC/ODH/1.0.0-comment",
+    "mode" : "milestone",
+    "status" : "ballot",
+    "sequence" : "Publication",
+    "desc" : "Public-Comment",
+    "descmd" : "Version 1.0.0-comment
+
+- Public-Comment",
+  }
