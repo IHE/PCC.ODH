@@ -1,5 +1,5 @@
 Mapping: IHE-PCC-ODH-ISCO08-ValueSet-Mapping
-Source:	ISCO08
+Source:	International_Occupation_Codes
 Target: "PHVS_Occupation_CDC_SOC2010"
 Title: "ISCO08 to USA SOC Crosswalk"
 * $ISCO08#0110 "Commissioned armed forces officers" -> $SOC2010#55-1011     "Air Crew Officers"
