@@ -1,5 +1,5 @@
-CodeSystem:  ISICRev4
-Title: "ISICRev4"
+CodeSystem:  InternationalStandardIndustrialClassificationCodesRev4
+Title: "International Standard Industrial Classification Codes Rev4"
 Description: """
 a standard classification of economic activities arranged so that entities can be classified according to the activity they carry out. The categories of ISIC at the most detailed level (classes) are delineated according to what is, in most countries, the customary combination of activities described in statistical units and considers the relative importance of the activities included in these classes. While the latest version, ISIC Rev.4, continues to use criteria such as input, output and use of the products produced, more emphasis has been given to the character of the production process in defining and delineating ISIC classes. 
 Published by IHE with authority from the International Labor Organization Given on July 18th 2024. This code system will be removed if and when a more formal publication is taken on by this organization.  

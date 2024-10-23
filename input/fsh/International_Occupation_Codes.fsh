@@ -1,5 +1,5 @@
-CodeSystem:  ISCO08
-Title: "ISCO08"
+CodeSystem:  InternationalClassificationOfOccupations2008
+Title: "International Classification Of Occupations 2008"
 Description: """
 The International Classification of Occupations (ISCO) seeks to facilitate international communication about occupations by providing statisticians with a framework to make internationally comparable occupational data available, and by allowing international occupational data to be produced in a form that can be useful for research as well as for specific decision-making and action-oriented activities.
 The current version, known as ISCO-08, was published in 2008 and is the fourth iteration, following ISCO-58, ISCO-68 and ISCO-88.
