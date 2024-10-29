@@ -5,6 +5,7 @@
 
 Instance:     IHE-PCC-ODH-ISCO08-ValueSet-Mapping
 InstanceOf:   ConceptMap
+Title:        "ISCO08 to USA SOC Crosswalk"
 Description:  "ISCO08 to USA SOC Crosswalk"
 Usage:        #definition
 
@@ -13,101 +14,102 @@ Usage:        #definition
 * status = #active
 * experimental = false
 * date = "2024-10-23"
-
+* description = "ISCO08 to USA SOC Crosswalk"
 * group[+]
-  * source = Canonical(ISCO08)
-  * target = Canonical(ISICRev4)
-
-
+  * source = Canonical(InternationalClassificationOfOccupations2008)
+  * target = Canonical(https://phinvads.cdc.gov/vads/ViewValueSet.action?id=044B66C7-33CF-46D5-B252-BBA8A8819EEF)
   * element[+]
     * code = #0110
-    * insert element.target(#55-1011, #narrower)
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-1011
+    * target.display = "Air Crew Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110 "Commissioned armed forces officers" -> $SOC2010#55-1011      "Air Crew Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1012, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1012, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1012    "Aircraft Launch and Recovery Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1013, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1013, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1013    "Armored Assault Vehicle Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1014, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1014, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1014    "Artillery and Missile Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1015, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1015, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1015    "Command and Control Center Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1016, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1016, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1016    "Infantry Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1017, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1017, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1017    "Special Forces Officers"
-  * element[+]
-    * code = #0110
-    * insert element.target(#55-1019, #narrower)
+//  * element[+]
+//    * code = #0110
+//    * insert element.target(#55-1019, #narrower)
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1019    "Military Officer Special and Tactical Operations Leaders, All Other"
 
 
-  * element[+]
-    * code = #0210
-    * insert element.target(#55-2011, #narrower)
+//  * element[+]
+//    * code = #0210
+//    * insert element.target(#55-2011, #narrower)
 //* $ISCO08#0210	"Non-commissioned armed forces officers" -> $SOC2010#55-2011    "First-Line Supervisors of Air Crew Members"
-  * element[+]
-    * code = #0210
-    * insert element.target(#55-2012, #narrower)
+//  * element[+]
+//    * code = #0210
+//    * insert element.target(#55-2012, #narrower)
 //* $ISCO08#0210	"Non-commissioned armed forces officers" -> $SOC2010#55-2012    "First-Line Supervisors of Weapons Specialists/Crew Members"
-  * element[+]
-    * code = #0210
-    * insert element.target(#55-2013, #narrower)
+//  * element[+]
+//    * code = #0210
+//    * insert element.target(#55-2013, #narrower)
 //* $ISCO08#0210	"Non-commissioned armed forces officers" -> $SOC2010#55-2013    "First-Line Supervisors of All Other Tactical Operations Specialists"
 
 
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3011, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3011, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3011     "Air Crew Members"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3012, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3012, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3012     "Aircraft Launch and Recovery Specialists"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3013, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3013, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3013     "Armored Assault Vehicle Crew Members"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3014, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3014, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3014 	"Artillery and Missile Crew Members"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3015, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3015, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3015 	"Command and Control Center Specialists"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3016, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3016, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3016 	"Infantry"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3017, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3017, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3017 	"Radar and Sonar Technicians"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3018, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3018, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3018 	"Special Forces"
-  * element[+]
-    * code = #0310
-    * insert element.target(#55-3019, #narrower)
+//  * element[+]
+//    * code = #0310
+//    * insert element.target(#55-3019, #narrower)
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3019 	"Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
 
 
-  * element[+]
-    * code = #1111
-     * insert element.target(#11-1031, #narrower)
+//  * element[+]
+//    * code = #1111
+ //    * insert element.target(#11-1031, #narrower)
 //* $ISCO08#1111	"Legislators" -> $SOC2010#11-1031       "Legislators"
 
 
