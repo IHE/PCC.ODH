@@ -230,122 +230,439 @@ Usage:        #definition
     * target.equivalence = #subsumes
 //* $ISCO08#1113	"Traditional chiefs and heads of villages" -> $SOC2010#11-1031	"Legislators"
 
-
+  * element[+]
+    * code = #1114
+    * display = "Senior officials of special-interest organizations"
+    * target.code = #11-1021
+    * target.display = "General and Operations Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1114	"Senior officials of special-interest organizations" -> $SOC2010#11-1021	"General and Operations Managers"
+
+  * element[+]
+    * code = #1114
+    * display = "Senior officials of special-interest organizations"
+    * target.code = #11-2031
+    * target.display = "Public Relations and Fundraising Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1114	"Senior officials of special-interest organizations" -> $SOC2010#11-2031	"Public Relations and Fundraising Managers"
+
+  * element[+]
+    * code = #1114
+    * display = "Senior officials of special-interest organizations"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1114	"Senior officials of special-interest organizations" -> $SOC2010#11-9199	"Managers, All Other"
 
-
+  * element[+]
+    * code = #1120
+    * display = "Managing directors and chief executives"
+    * target.code = #11-1011
+    * target.display = "Chief Executives"
+    * target.equivalence = #subsumes
 //* $ISCO08#1120	"Managing directors and chief executives" -> $SOC2010#11-1011	"Chief Executives"
+
+  * element[+]
+    * code = #1120
+    * display = "General and Operations Managers"
+    * target.code = #11-1021
+    * target.display = "Chief Executives"
+    * target.equivalence = #subsumes
 //* $ISCO08#1120	"Managing directors and chief executives" -> $SOC2010#11-1021	"General and Operations Managers"
 
-
+  * element[+]
+    * code = #1211
+    * display = "Finance managers"
+    * target.code = #11-3031
+    * target.display = "Financial Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1211	"Finance managers" -> $SOC2010#11-3031	"Financial Managers"
 
-
+  * element[+]
+    * code = #1212
+    * display = "Human resource managers"
+    * target.code = #11-3111
+    * target.display = "Compensation and Benefits Manager"
+    * target.equivalence = #subsumes
 //* $ISCO08#1212	"Human resource managers" -> $SOC2010#11-3111	"Compensation and Benefits Managers"
+
+  * element[+]
+    * code = #1212
+    * display = "Human resource managers"
+    * target.code = #11-3121
+    * target.display = "Human Resources Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1212	"Human resource managers" -> $SOC2010#11-3121	"Human Resources Managers"
+
+  * element[+]
+    * code = #1212
+    * display = "Human resource managers"
+    * target.code = #11-3131
+    * target.display = "Training and Development Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1212	"Human resource managers" -> $SOC2010#11-3131	"Training and Development Managers"
 
-
+  * element[+]
+    * code = #1213
+    * display = "Human resource managers"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1213	"Policy and planning managers" -> $SOC2010#11-9199	"Managers, All Other"
 
-
+  * element[+]
+    * code = #1219
+    * display = "Business services and administration managers not elsewhere classified"
+    * target.code = #11-2031
+    * target.display = "Public Relations and Fundraising Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1219	"Business services and administration managers not elsewhere classified" -> $SOC2010#11-2031	"Public Relations and Fundraising Managers"
+
+  * element[+]
+    * code = #1219
+    * display = "Business services and administration managers not elsewhere classified"
+    * target.code = #11-3011
+    * target.display = "Administrative Services Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1219	"Business services and administration managers not elsewhere classified" -> $SOC2010#11-3011	"Administrative Services Managers"
+
+  * element[+]
+    * code = #1219
+    * display = "Business services and administration managers not elsewhere classified"
+    * target.code = #11-3061
+    * target.display = "Purchasing Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1219	"Business services and administration managers not elsewhere classified" -> $SOC2010#11-3061	"Purchasing Managers"
+
+  * element[+]
+    * code = #1219
+    * display = "Business services and administration managers not elsewhere classified"
+    * target.code = #11-9061
+    * target.display = "Funeral Service Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1219	"Business services and administration managers not elsewhere classified" -> $SOC2010#11-9061	"Funeral Service Managers"
+
+  * element[+]
+    * code = #1219
+    * display = "Business services and administration managers not elsewhere classified"
+    * target.code = #11-9131
+    * target.display = "Postmasters and Mail Superintendents"
+    * target.equivalence = #subsumes
 //* $ISCO08#1219	"Business services and administration managers not elsewhere classified" -> $SOC2010#11-9131	"Postmasters and Mail Superintendents"
+
+  * element[+]
+    * code = #1219
+    * display = "Business services and administration managers not elsewhere classified"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1219	"Business services and administration managers not elsewhere classified" -> $SOC2010#11-9199	"Managers, All Other"
 
 
+  * element[+]
+    * code = #1221
+    * display = "Sales and marketing managers"
+    * target.code = #11-2021
+    * target.display = "Marketing Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1221	"Sales and marketing managers" -> $SOC2010#11-2021	"Marketing Managers"
+
+  * element[+]
+    * code = #1221
+    * display = "Sales and marketing managers"
+    * target.code = #11-2022
+    * target.display = "Sales Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1221	"Sales and marketing managers" -> $SOC2010#11-2022	"Sales Managers"
 
-
+  * element[+]
+    * code = #1222
+    * display = "Advertising and public relations managers"
+    * target.code = #11-2011
+    * target.display = "Advertising and Promotions Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1222	"Advertising and public relations managers" -> $SOC2010#11-2011	"Advertising and Promotions Managers"
+
+  * element[+]
+    * code = #1222
+    * display = "Advertising and public relations managers"
+    * target.code = #11-2031
+    * target.display = "Public Relations and Fundraising Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1222	"Advertising and public relations managers" -> $SOC2010#11-2031	"Public Relations and Fundraising Managers"
 
-
+  * element[+]
+    * code = #1223
+    * display = "Research and development managers"
+    * target.code = #11-9041
+    * target.display = "Architectural and Engineering Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1223	"Research and development managers" -> $SOC2010#11-9041	"Architectural and Engineering Managers"
+
+  * element[+]
+    * code = #1223
+    * display = "Research and development managers"
+    * target.code = #11-9121
+    * target.display = "Natural Sciences Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1223	"Research and development managers" -> $SOC2010#11-9121	"Natural Sciences Managers"
 
 
+  * element[+]
+    * code = #1311
+    * display = "Agricultural and forestry production managers"
+    * target.code = #11-9121
+    * target.display = "Natural Sciences Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1311	"Agricultural and forestry production managers" -> $SOC2010#11-9013	"Farmers, Ranchers, and Other Agricultural Managers"
+
+  * element[+]
+    * code = #1312
+    * display = "Agricultural and forestry production managers"
+    * target.code = #11-9013
+    * target.display = "Farmers, Ranchers, and Other Agricultural Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1312	"Aquaculture and fisheries production managers" -> $SOC2010#11-9013	"Farmers, Ranchers, and Other Agricultural Managers"
 
-
+  * element[+]
+    * code = #1321
+    * display = "Manufacturing managers"
+    * target.code = #11-3051
+    * target.display = "Industrial Production Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1321	"Manufacturing managers" -> $SOC2010#11-3051	"Industrial Production Managers"
 
-
+  * element[+]
+    * code = #1322
+    * display = "Mining managers"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1322	"Mining managers" -> $SOC2010#11-9199	"Managers, All Other"
 
-
+  * element[+]
+    * code = #1323
+    * display = "Construction managers"
+    * target.code = #11-9021
+    * target.display = "Construction Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1323	"Construction managers" -> $SOC2010#11-9021	"Construction Managers"
 
-
+  * element[+]
+    * code = #1324
+    * display = "Supply, distribution and related managers"
+    * target.code = #11-3071
+    * target.display = "Transportation, Storage, and Distribution Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1324	"Supply, distribution and related managers" -> $SOC2010#11-3071	"Transportation, Storage, and Distribution Managers"
 
-
+  * element[+]
+    * code = #1330
+    * display = "Information and communications technology service managers"
+    * target.code = #11-3021
+    * target.display = "Computer and Information Systems Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1330	"Information and communications technology service managers" -> $SOC2010#11-3021	"Computer and Information Systems Managers"
 
-
+  * element[+]
+    * code = #1341
+    * display = "Child care services managers"
+    * target.code = #11-9031
+    * target.display = "Education Administrators, Preschool and Childcare Center/Program"
+    * target.equivalence = #subsumes
 //* $ISCO08#1341	"Child care services managers" -> $SOC2010#11-9031	"Education Administrators, Preschool and Childcare Center/Program"
 
-
+  * element[+]
+    * code = #1342
+    * display = "Health services managers"
+    * target.code = #11-9111
+    * target.display = "Medical and Health Services Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1342	"Health services managers" -> $SOC2010#11-9111	"Medical and Health Services Managers"
 
-
+  * element[+]
+    * code = #1343
+    * display = "Aged care services managers"
+    * target.code = #11-1021
+    * target.display = "General and Operations Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1343	"Aged care services managers" -> $SOC2010#11-1021	"General and Operations Managers"
+
+  * element[+]
+    * code = #1343
+    * display = "Aged care services managers"
+    * target.code = #11-9111
+    * target.display = "Medical and Health Services Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1343	"Aged care services managers" -> $SOC2010#11-9111	"Medical and Health Services Managers"
 
-
+  * element[+]
+    * code = #1344
+    * display = "Social welfare managers"
+    * target.code = #11-9151
+    * target.display = "Social and Community Service Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1344	"Social welfare managers" -> $SOC2010#11-9151	"Social and Community Service Managers"
 
-
+  * element[+]
+    * code = #1345
+    * display = "Education managers"
+    * target.code = #11-9032
+    * target.display = "Education Administrators, Elementary and Secondary School"
+    * target.equivalence = #subsumes
 //* $ISCO08#1345	"Education managers" -> $SOC2010#11-9032	"Education Administrators, Elementary and Secondary School"
+
+  * element[+]
+    * code = #1345
+    * display = "Education managers"
+    * target.code = #11-9033
+    * target.display = "Education Administrators, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#1345	"Education managers" -> $SOC2010#11-9033	"Education Administrators, Postsecondary"
+
+  * element[+]
+    * code = #1345
+    * display = "Education managers"
+    * target.code = #11-9039
+    * target.display = "Education Administrators, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1345	"Education managers" -> $SOC2010#11-9039	"Education Administrators, All Other"
 
 
+  * element[+]
+    * code = #1346
+    * display = "Financial and insurance services branch managers"
+    * target.code = #11-1021
+    * target.display = "General and Operations Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1346	"Financial and insurance services branch managers" -> $SOC2010#11-1021	"General and Operations Managers"
+
+  * element[+]
+    * code = #1346
+    * display = "Financial and insurance services branch managers"
+    * target.code = #11-3031
+    * target.display = "Financial Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1346	"Financial and insurance services branch managers" -> $SOC2010#11-3031	"Financial Managers"
 
-
+  * element[+]
+    * code = #1349
+    * display = "Professional services managers not elsewhere classified"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1349	"Professional services managers not elsewhere classified" -> $SOC2010#11-9199	"Managers, All Other"
 
-
+  * element[+]
+    * code = #1411
+    * display = "Hotel managers"
+    * target.code = #11-9081
+    * target.display = "Lodging Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1411	"Hotel managers" -> $SOC2010#11-9081	"Lodging Managers"
 
-
+  * element[+]
+    * code = #1412
+    * display = "Restaurant managers"
+    * target.code = #11-9051
+    * target.display = "Food Service Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1412	"Restaurant managers" -> $SOC2010#11-9051	"Food Service Managers"
 
-
+  * element[+]
+    * code = #1420
+    * display = "Retail and wholesale trade managers"
+    * target.code = #11-1021
+    * target.display = "General and Operations Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1420	"Retail and wholesale trade managers" -> $SOC2010#11-1021	"General and Operations Managers"
 
-
+  * element[+]
+    * code = #1431
+    * display = "Sports, recreation and cultural centre managers"
+    * target.code = #11-9071
+    * target.display = "Gaming Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1431	"Sports, recreation and cultural centre managers" -> $SOC2010#11-9071	"Gaming Managers"
+
+  * element[+]
+    * code = #1431
+    * display = "Sports, recreation and cultural centre managers"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1431	"Sports, recreation and cultural centre managers" -> $SOC2010#11-9199	"Managers, All Other"
 
-
+  * element[+]
+    * code = #1439
+    * display = "Services managers not elsewhere classified"
+    * target.code = #11-9199
+    * target.display = "Managers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#1439	"Services managers not elsewhere classified" -> $SOC2010#11-9199	"Managers, All Other"
 
-
+  * element[+]
+    * code = #211
+    * display = "Physical and earth science professionals"
+    * target.code = #19-2099
+    * target.display = "Physical Scientists, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#211	"Physical and earth science professionals" -> $SOC2010#19-2099	"Physical Scientists, All Other"
 
-
+  * element[+]
+    * code = #2111
+    * display = "Physicists and astronomers"
+    * target.code = #19-2011
+    * target.display = "Astronomers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2111	"Physicists and astronomers" -> $SOC2010#19-2011	"Astronomers"
+
+  * element[+]
+    * code = #2111
+    * display = "Physicists and astronomers"
+    * target.code = #19-2012
+    * target.display = "Physicists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2111	"Physicists and astronomers" -> $SOC2010#19-2012	"Physicists"
 
-
+  * element[+]
+    * code = #2112
+    * display = "Meteorologists"
+    * target.code = #19-2021
+    * target.display = "Atmospheric and Space Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2112	"Meteorologists" -> $SOC2010#19-2021	"Atmospheric and Space Scientists"
 
-
+  * element[+]
+    * code = #2113
+    * display = "Chemists"
+    * target.code = #19-2031
+    * target.display = "Chemists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2113	"Chemists" -> $SOC2010#19-2031	"Chemists"
+
+  * element[+]
+    * code = #2113
+    * display = "Chemists"
+    * target.code = #19-2032
+    * target.display = "Materials Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2113	"Chemists" -> $SOC2010#19-2032	"Materials Scientists"
 
-
+  * element[+]
+    * code = #2114
+    * display = "Geologists and geophysicists"
+    * target.code = #19-2042
+    * target.display = "Geoscientists, Except Hydrologists and Geographers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2114	"Geologists and geophysicists" -> $SOC2010#19-2042	"Geoscientists, Except Hydrologists and Geographers"
+
+  * element[+]
+    * code = #2114
+    * display = "Geologists and geophysicists"
+    * target.code = #19-2043
+    * target.display = "Hydrologist"
+    * target.equivalence = #subsumes
 //* $ISCO08#2114	"Geologists and geophysicists" -> $SOC2010#19-2043	"Hydrologist"
 
 

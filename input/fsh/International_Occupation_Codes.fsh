@@ -6,8 +6,10 @@ The current version, known as ISCO-08, was published in 2008 and is the fourth i
 Published by IHE with authority from the International Labor Organization Given on July 18th 2024. This code system will be removed if and when a more formal publication is taken on by this organization.  
 """
 Id: ISCO08
+//* ^url = oid:1.3.6.1.4.1.19376.1.5.3.5
 * ^experimental = false 
-* ^caseSensitive = true 
+* ^caseSensitive = true
+* ^hierarchyMeaning = http://hl7.org/fhir/codesystem-hierarchy-meaning#is-a  
 * #1	    "Managers"
   * #11	    "Chief Executives, Senior Officials and Legislators"
     * #111	    "Legislators and Senior Officials"
