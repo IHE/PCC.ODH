@@ -17,6 +17,7 @@ Usage:        #definition
 * description = "ISCO08 to USA SOC Crosswalk"
 * group[+]
   * source = Canonical(InternationalClassificationOfOccupations2008)
+  * target = Canonical(https://terminology.hl7.org/CodeSystem-soc.html)
 //  * target.targetUri = "2.16.840.1.114222.4.11.7186" 
   * element[+]
     * code = #0110
@@ -1206,32 +1207,116 @@ Usage:        #definition
     * target.equivalence = #subsumes
 //* $ISCO08#2250	"Veterinarians" -> $SOC2010#29-1131	"Veterinarians"
 
-
+  * element[+]
+    * code = #2261
+    * display = "Dentists"
+    * target.code = #29-1021
+    * target.display = "Dentists, General"
+    * target.equivalence = #subsumes
 //* $ISCO08#2261	"Dentists" -> $SOC2010#29-1021	"Dentists, General"
+
+  * element[+]
+    * code = #2261
+    * display = "Dentists"
+    * target.code = #29-1022
+    * target.display = "Oral and Maxillofacial Surgeons"
+    * target.equivalence = #subsumes
 //* $ISCO08#2261	"Dentists" -> $SOC2010#29-1022	"Oral and Maxillofacial Surgeons"
+
+  * element[+]
+    * code = #2261
+    * display = "Dentists"
+    * target.code = #29-1023
+    * target.display = "Orthodontists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2261	"Dentists" -> $SOC2010#29-1023	"Orthodontists"
+
+  * element[+]
+    * code = #2261
+    * display = "Dentists"
+    * target.code = #29-1024
+    * target.display = "Prosthodontists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2261	"Dentists" -> $SOC2010#29-1024	"Prosthodontists"
+
+  * element[+]
+    * code = #2261
+    * display = "Dentists"
+    * target.code = #29-1029
+    * target.display = "Dentists, All Other Specialists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2261	"Dentists" -> $SOC2010#29-1029	"Dentists, All Other Specialists"
 
-
+  * element[+]
+    * code = #2262
+    * display = "Pharmacists"
+    * target.code = #29-1051
+    * target.display = "Pharmacists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2262	"Pharmacists" -> $SOC2010#29-1051	"Pharmacists"
 
-
+  * element[+]
+    * code = #2263
+    * display = "Environmental and occupational health and hygiene professionals"
+    * target.code = #21-1091
+    * target.display = "Health Educators"
+    * target.equivalence = #subsumes
 //* $ISCO08#2263	"Environmental and occupational health and hygiene professionals" -> $SOC2010#21-1091	"Health Educators" 
+
+  * element[+]
+    * code = #2263
+    * display = "Environmental and occupational health and hygiene professionals"
+    * target.code = #29-9011
+    * target.display = "Occupational Health and Safety Specialists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2263	"Environmental and occupational health and hygiene professionals" -> $SOC2010#29-9011 	"Occupational Health and Safety Specialists"
 
-
+  * element[+]
+    * code = #2264
+    * display = "Physiotherapists"
+    * target.code = #29-1123
+    * target.display = "Physical Therapists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2264	"Physiotherapists" -> $SOC2010#29-1123	"Physical Therapists"
+
+  * element[+]
+    * code = #2264
+    * display = "Physiotherapists"
+    * target.code = #29-1128
+    * target.display = "Exercise Physiologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2264	"Physiotherapists" -> $SOC2010#29-1128	"Exercise Physiologists"
 
-
+  * element[+]
+    * code = #2265
+    * display = "Dieticians and nutritionists"
+    * target.code = #29-1031
+    * target.display = "Dietitians and Nutritionists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2265	"Dieticians and nutritionists" -> $SOC2010#29-1031	"Dietitians and Nutritionists"
 
-
+  * element[+]
+    * code = #2266
+    * display = "Audiologists and speech therapists"
+    * target.code = #29-1127
+    * target.display = "Speech-Language Pathologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2266	"Audiologists and speech therapists" -> $SOC2010#29-1127	"Speech-Language Pathologists"
+
+  * element[+]
+    * code = #2266
+    * display = "Audiologists and speech therapists"
+    * target.code = #29-1181
+    * target.display = "Audiologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2266	"Audiologists and speech therapists" -> $SOC2010#29-1181	"Audiologists"
 
-
+  * element[+]
+    * code = #2267
+    * display = "Optometrists and ophthalmic opticians"
+    * target.code = #29-1041
+    * target.display = "Optometrists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2267	"Optometrists and ophthalmic opticians" -> $SOC2010#29-1041	"Optometrists"
 
 
