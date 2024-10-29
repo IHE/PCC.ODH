@@ -25,33 +25,61 @@ Usage:        #definition
     * target.display = "Air Crew Officers"
     * target.equivalence = #narrower
 //* $ISCO08#0110 "Commissioned armed forces officers" -> $SOC2010#55-1011      "Air Crew Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1012, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-1012
+    * target.display = "Aircraft Launch and Recovery Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1012    "Aircraft Launch and Recovery Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1013, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-1013
+    * target.display = "Armored Assault Vehicle Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1013    "Armored Assault Vehicle Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1014, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-55-1014
+    * target.display = "Artillery and Missile Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1014    "Artillery and Missile Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1015, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-55-1015
+    * target.display = "Command and Control Center Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1015    "Command and Control Center Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1016, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-55-1016
+    * target.display = "Infantry Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1016    "Infantry Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1017, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-55-1017
+    * target.display = "Special Forces Officers"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1017    "Special Forces Officers"
-//  * element[+]
-//    * code = #0110
-//    * insert element.target(#55-1019, #narrower)
+
+  * element[+]
+    * code = #0110
+    * display = "Commissioned armed forces officers"
+    * target.code = #55-55-1019
+    * target.display = "Military Officer Special and Tactical Operations Leaders, All Other"
+    * target.equivalence = #narrower
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1019    "Military Officer Special and Tactical Operations Leaders, All Other"
 
 
