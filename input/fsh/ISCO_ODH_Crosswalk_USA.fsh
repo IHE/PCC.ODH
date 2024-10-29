@@ -17,7 +17,7 @@ Usage:        #definition
 * description = "ISCO08 to USA SOC Crosswalk"
 * group[+]
   * source = Canonical(InternationalClassificationOfOccupations2008)
-  * target.targetUri = "2.16.840.1.114222.4.11.7186" 
+//  * target.targetUri = "2.16.840.1.114222.4.11.7186" 
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
