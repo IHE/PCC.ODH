@@ -23,7 +23,7 @@ Usage:        #definition
     * display = "Commissioned armed forces officers"
     * target.code = #55-1011
     * target.display = "Air Crew Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110 "Commissioned armed forces officers" -> $SOC2010#55-1011      "Air Crew Officers"
 
   * element[+]
@@ -31,7 +31,7 @@ Usage:        #definition
     * display = "Commissioned armed forces officers"
     * target.code = #55-1012
     * target.display = "Aircraft Launch and Recovery Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1012    "Aircraft Launch and Recovery Officers"
 
   * element[+]
@@ -39,99 +39,145 @@ Usage:        #definition
     * display = "Commissioned armed forces officers"
     * target.code = #55-1013
     * target.display = "Armored Assault Vehicle Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1013    "Armored Assault Vehicle Officers"
 
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
-    * target.code = #55-55-1014
+    * target.code = #55-1014
     * target.display = "Artillery and Missile Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1014    "Artillery and Missile Officers"
 
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
-    * target.code = #55-55-1015
+    * target.code = #55-1015
     * target.display = "Command and Control Center Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1015    "Command and Control Center Officers"
 
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
-    * target.code = #55-55-1016
+    * target.code = #55-1016
     * target.display = "Infantry Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1016    "Infantry Officers"
 
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
-    * target.code = #55-55-1017
+    * target.code = #55-1017
     * target.display = "Special Forces Officers"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1017    "Special Forces Officers"
 
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
-    * target.code = #55-55-1019
+    * target.code = #55-1019
     * target.display = "Military Officer Special and Tactical Operations Leaders, All Other"
-    * target.equivalence = #narrower
+    * target.equivalence = #subsumes
 //* $ISCO08#0110	"Commissioned armed forces officers" -> $SOC2010#55-1019    "Military Officer Special and Tactical Operations Leaders, All Other"
 
 
-//  * element[+]
-//    * code = #0210
-//    * insert element.target(#55-2011, #narrower)
+  * element[+]
+    * code = #0210
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-2011
+    * target.display = "First-Line Supervisors of Air Crew Members"
+    * target.equivalence = #subsumes
 //* $ISCO08#0210	"Non-commissioned armed forces officers" -> $SOC2010#55-2011    "First-Line Supervisors of Air Crew Members"
-//  * element[+]
-//    * code = #0210
-//    * insert element.target(#55-2012, #narrower)
+
+  * element[+]
+    * code = #0210
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-2012
+    * target.display = "First-Line Supervisors of Weapons Specialists/Crew Members"
+    * target.equivalence = #subsumes
 //* $ISCO08#0210	"Non-commissioned armed forces officers" -> $SOC2010#55-2012    "First-Line Supervisors of Weapons Specialists/Crew Members"
-//  * element[+]
-//    * code = #0210
-//    * insert element.target(#55-2013, #narrower)
+
+  * element[+]
+    * code = #0210
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-2013
+    * target.display = "First-Line Supervisors of All Other Tactical Operations Specialists"
+    * target.equivalence = #subsumes
 //* $ISCO08#0210	"Non-commissioned armed forces officers" -> $SOC2010#55-2013    "First-Line Supervisors of All Other Tactical Operations Specialists"
 
 
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3011, #narrower)
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3011
+    * target.display = "Air Crew Members"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3011     "Air Crew Members"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3012, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3012
+    * target.display = "Aircraft Launch and Recovery Specialists"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3012     "Aircraft Launch and Recovery Specialists"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3013, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3013
+    * target.display = "Armored Assault Vehicle Crew Members"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3013     "Armored Assault Vehicle Crew Members"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3014, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3014
+    * target.display = "Artillery and Missile Crew Members"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3014 	"Artillery and Missile Crew Members"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3015, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3015
+    * target.display = "Command and Control Center Specialists"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3015 	"Command and Control Center Specialists"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3016, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3016
+    * target.display = "Infantry"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3016 	"Infantry"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3017, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3017
+    * target.display = "Radar and Sonar Technicians"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3017 	"Radar and Sonar Technicians"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3018, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3018
+    * target.display = "Special Forces"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3018 	"Special Forces"
-//  * element[+]
-//    * code = #0310
-//    * insert element.target(#55-3019, #narrower)
+
+  * element[+]
+    * code = #0310
+    * display = "Non-commissioned armed forces officers"
+    * target.code = #55-3019
+    * target.display = "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3019 	"Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
 
 
