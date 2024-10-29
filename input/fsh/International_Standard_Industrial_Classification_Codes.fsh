@@ -6,6 +6,7 @@ Published by IHE with authority from the International Labor Organization Given 
 """
 Id: ISICRev4
 //* ^url = oid:1.3.6.1.4.1.19376.1.5.3.6
+* ^url =  https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.html
 * ^experimental = false 
 * ^caseSensitive = true 
 * ^hierarchyMeaning = http://hl7.org/fhir/codesystem-hierarchy-meaning#is-a 

@@ -264,7 +264,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1120
-    * display = "General and Operations Managers"
+    * display = "Managing directors and chief executives"
     * target.code = #11-1021
     * target.display = "Chief Executives"
     * target.equivalence = #subsumes
@@ -304,7 +304,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1213
-    * display = "Human resource managers"
+    * display = "Policy and planning managers"
     * target.code = #11-9199
     * target.display = "Managers, All Other"
     * target.equivalence = #subsumes
@@ -418,7 +418,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1312
-    * display = "Agricultural and forestry production managers"
+    * display = "Aquaculture and fisheries production managers"
     * target.code = #11-9013
     * target.display = "Farmers, Ranchers, and Other Agricultural Managers"
     * target.equivalence = #subsumes
@@ -466,7 +466,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1341
-    * display = "Child care services managers"
+    * display = "Child Care Service Managers"
     * target.code = #11-9031
     * target.display = "Education Administrators, Preschool and Childcare Center/Program"
     * target.equivalence = #subsumes
@@ -474,7 +474,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1342
-    * display = "Health services managers"
+    * display = "Health Service Managers"
     * target.code = #11-9111
     * target.display = "Medical and Health Services Managers"
     * target.equivalence = #subsumes
@@ -482,7 +482,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1343
-    * display = "Aged care services managers"
+    * display = "Aged Care Service Managers"
     * target.code = #11-1021
     * target.display = "General and Operations Managers"
     * target.equivalence = #subsumes
@@ -490,7 +490,7 @@ Usage:        #definition
 
   * element[+]
     * code = #1343
-    * display = "Aged care services managers"
+    * display = "Aged Care Service Managers"
     * target.code = #11-9111
     * target.display = "Medical and Health Services Managers"
     * target.equivalence = #subsumes
@@ -665,125 +665,545 @@ Usage:        #definition
     * target.equivalence = #subsumes
 //* $ISCO08#2114	"Geologists and geophysicists" -> $SOC2010#19-2043	"Hydrologist"
 
-
+  * element[+]
+    * code = #2120
+    * display = "Mathematicians, actuaries and statisticians"
+    * target.code = #15-2011
+    * target.display = "Actuaries"
+    * target.equivalence = #subsumes
 //* $ISCO08#2120	"Mathematicians, actuaries and statisticians" -> $SOC2010#15-2011	"Actuaries"
+
+  * element[+]
+    * code = #2120
+    * display = "Mathematicians, actuaries and statisticians"
+    * target.code = #15-2021
+    * target.display = "Mathematicians"
+    * target.equivalence = #subsumes
 //* $ISCO08#2120	"Mathematicians, actuaries and statisticians" -> $SOC2010#15-2021	"Mathematicians"
+
+  * element[+]
+    * code = #2120
+    * display = "Mathematicians, actuaries and statisticians"
+    * target.code = #15-2031
+    * target.display = "Operations Research Analysts"
+    * target.equivalence = #subsumes
 //* $ISCO08#2120	"Mathematicians, actuaries and statisticians" -> $SOC2010#15-2031	"Operations Research Analysts"
+
+  * element[+]
+    * code = #2120
+    * display = "Mathematicians, actuaries and statisticians"
+    * target.code = #15-2041
+    * target.display = "Statisticians"
+    * target.equivalence = #subsumes
 //* $ISCO08#2120	"Mathematicians, actuaries and statisticians" -> $SOC2010#15-2041	"Statisticians"
+
+  * element[+]
+    * code = #2120
+    * display = "Mathematicians, actuaries and statisticians"
+    * target.code = #19-3022
+    * target.display = "Survey Researchers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2120	"Mathematicians, actuaries and statisticians" -> $SOC2010#19-3022	"Survey Researchers"
 
-
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1011
+    * target.display = "Animal Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1011	"Animal Scientists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1012
+    * target.display = "Food Scientists and Technologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1012	"Food Scientists and Technologists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1013
+    * target.display = "Soil and Plant Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1013	"Soil and Plant Scientists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1021
+    * target.display = "Biochemists and Biophysicists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1021	"Biochemists and Biophysicists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1022
+    * target.display = "Microbiologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1022	"Microbiologists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1023
+    * target.display = "Zoologists and Wildlife Biologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1023	"Zoologists and Wildlife Biologists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1029
+    * target.display = "Biological Scientists, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1029	"Biological Scientists, All Other"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1041
+    * target.display = "Epidemiologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1041	"Epidemiologists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1042
+    * target.display = "Medical Scientists, Except Epidemiologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1042	"Medical Scientists, Except Epidemiologists"
+
+  * element[+]
+    * code = #2131
+    * display = "Biologists, botanists, zoologists and related professionals"
+    * target.code = #19-1099
+    * target.display = "Life Scientists, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2131	"Biologists, botanists, zoologists and related professionals" -> $SOC2010#19-1099	"Life Scientists, All Other"
 
 
+  * element[+]
+    * code = #2132
+    * display = "Farming, forestry and fisheries advisers"
+    * target.code = #19-1013
+    * target.display = "Soil and Plant Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2132	"Farming, forestry and fisheries advisers" -> $SOC2010#19-1013	"Soil and Plant Scientists"
+
+  * element[+]
+    * code = #2132
+    * display = "Farming, forestry and fisheries advisers"
+    * target.code = #19-1032
+    * target.display = "Foresters"
+    * target.equivalence = #subsumes
 //* $ISCO08#2132	"Farming, forestry and fisheries advisers" -> $SOC2010#19-1032	"Foresters"
+
+  * element[+]
+    * code = #2132
+    * display = "Farming, forestry and fisheries advisers"
+    * target.code = #25-9021
+    * target.display = "Farm and Home Management Advisors"
+    * target.equivalence = #subsumes
 //* $ISCO08#2132	"Farming, forestry and fisheries advisers" -> $SOC2010#25-9021	"Farm and Home Management Advisors"
 
-
+  * element[+]
+    * code = #2133
+    * display = "Environmental protection professionals"
+    * target.code = #19-1031
+    * target.display = "Conservation Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2133	"Environmental protection professionals" -> $SOC2010#19-1031 	"Conservation Scientists"
+
+  * element[+]
+    * code = #2133
+    * display = "Environmental protection professionals"
+    * target.code = #19-2041
+    * target.display = "Environmental Scientists and Specialists, Including Health"
+    * target.equivalence = #subsumes
 //* $ISCO08#2133	"Environmental protection professionals" -> $SOC2010#19-2041 	"Environmental Scientists and Specialists, Including Health"
 
 
+  * element[+]
+    * code = #2141
+    * display = "Industrial and production engineers"
+    * target.code = #17-2112
+    * target.display = "Industrial Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2141	"Industrial and production engineers" -> $SOC2010#17-2112	"Industrial Engineers"
 
-
+  * element[+]
+    * code = #2142
+    * display = "Civil engineers"
+    * target.code = #17-2051
+    * target.display = "Civil Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2142	"Civil engineers" -> $SOC2010#17-2051 	"Civil Engineers"
 
-
+  * element[+]
+    * code = #2143
+    * display = "Environmental engineers"
+    * target.code = #17-2081
+    * target.display = "Environmental Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2143	"Environmental engineers" -> $SOC2010#17-2081	"Environmental Engineers"
 
-
+  * element[+]
+    * code = #2144
+    * display = "Mechanical engineers"
+    * target.code = #17-2011
+    * target.display = "Aerospace Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2144	"Mechanical engineers" -> $SOC2010#17-2011 	"Aerospace Engineers"
+
+  * element[+]
+    * code = #2144
+    * display = "Mechanical engineers"
+    * target.code = #17-2021
+    * target.display = "Agricultural Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2144	"Mechanical engineers" -> $SOC2010#17-2021	"Agricultural Engineers"
+
+  * element[+]
+    * code = #2144
+    * display = "Mechanical engineers"
+    * target.code = #17-2121
+    * target.display = "Marine Engineers and Naval Architects"
+    * target.equivalence = #subsumes
 //* $ISCO08#2144	"Mechanical engineers" -> $SOC2010#17-2121 	"Marine Engineers and Naval Architects"
+
+  * element[+]
+    * code = #2144
+    * display = "Mechanical engineers"
+    * target.code = #17-2141
+    * target.display = "Mechanical Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2144	"Mechanical engineers" -> $SOC2010#17-2141 	"Mechanical Engineers"
 
 
+  * element[+]
+    * code = #2145
+    * display = "Chemical engineers"
+    * target.code = #17-2041
+    * target.display = "Chemical Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2145	"Chemical engineers" -> $SOC2010#17-2041	"Chemical Engineers"
 
-
+  * element[+]
+    * code = #2146
+    * display = "Mining engineers, metallurgists and related professionals"
+    * target.code = #17-2131
+    * target.display = "Materials Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2146	"Mining engineers, metallurgists and related professionals" -> $SOC2010#17-2131	"Materials Engineers"
+
+  * element[+]
+    * code = #2146
+    * display = "Mining engineers, metallurgists and related professionals"
+    * target.code = #17-2151
+    * target.display = "Mining and Geological Engineers, Including Mining Safety Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2146	"Mining engineers, metallurgists and related professionals" -> $SOC2010#17-2151	"Mining and Geological Engineers, Including Mining Safety Engineers"
+
+  * element[+]
+    * code = #2146
+    * display = "Mining engineers, metallurgists and related professionals"
+    * target.code = #17-2171
+    * target.display = "Petroleum Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2146	"Mining engineers, metallurgists and related professionals" -> $SOC2010#17-2171	"Petroleum Engineers"
+
+  * element[+]
+    * code = #2146
+    * display = "Mining engineers, metallurgists and related professionals"
+    * target.code = #19-2032
+    * target.display = "Materials Scientists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2146	"Mining engineers, metallurgists and related professionals" -> $SOC2010#19-2032	"Materials Scientists"
 
 
+  * element[+]
+    * code = #2149
+    * display = "Engineering professionals not elsewhere classified"
+    * target.code = #17-2031
+    * target.display = "Biomedical Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2149	"Engineering professionals not elsewhere classified" -> $SOC2010#17-2031	"Biomedical Engineers"
+
+  * element[+]
+    * code = #2149
+    * display = "Engineering professionals not elsewhere classified"
+    * target.code = #17-2111
+    * target.display = "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+    * target.equivalence = #subsumes
 //* $ISCO08#2149	"Engineering professionals not elsewhere classified" -> $SOC2010#17-2111 	"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+
+  * element[+]
+    * code = #2149
+    * display = "Engineering professionals not elsewhere classified"
+    * target.code = #17-2131
+    * target.display = "Materials Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2149	"Engineering professionals not elsewhere classified" -> $SOC2010#17-2131	"Materials Engineers"
+
+  * element[+]
+    * code = #2149
+    * display = "Engineering professionals not elsewhere classified"
+    * target.code = #17-2161
+    * target.display = "Nuclear Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2149	"Engineering professionals not elsewhere classified" -> $SOC2010#17-2161	"Nuclear Engineers"
+
+  * element[+]
+    * code = #2149
+    * display = "Engineering professionals not elsewhere classified"
+    * target.code = #17-2199
+    * target.display = "Engineers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2149	"Engineering professionals not elsewhere classified" -> $SOC2010#17-2199	"Engineers, All Other"
 
 
+  * element[+]
+    * code = #2151
+    * display = "Electrical engineers"
+    * target.code = #17-2071
+    * target.display = "Electrical Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2151	"Electrical engineers" -> $SOC2010#17-2071	"Electrical Engineers"
 
-
+  * element[+]
+    * code = #2152
+    * display = "Electronics engineers"
+    * target.code = #17-2061
+    * target.display = "Computer Hardware Engineers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2152	"Electronics engineers" -> $SOC2010#17-2061 	"Computer Hardware Engineers"
+
+  * element[+]
+    * code = #2152
+    * display = "Electronics engineers"
+    * target.code = #17-2072
+    * target.display = "Electronics Engineers, Except Computer"
+    * target.equivalence = #subsumes
 //* $ISCO08#2152	"Electronics engineers" -> $SOC2010#17-2072 	"Electronics Engineers, Except Computer"
 
-
+  * element[+]
+    * code = #2153
+    * display = "Telecommunications engineers"
+    * target.code = #17-2072
+    * target.display = "Electronics Engineers, Except Computer"
+    * target.equivalence = #subsumes
 //* $ISCO08#2153	"Telecommunications engineers" -> $SOC2010#17-2072	"Electronics Engineers, Except Computer"
 
-
+  * element[+]
+    * code = #2161
+    * display = "Building architects"
+    * target.code = #17-1011
+    * target.display = "Architects, Except Landscape and Naval"
+    * target.equivalence = #subsumes
 //* $ISCO08#2161	"Building architects" -> $SOC2010#17-1011	"Architects, Except Landscape and Naval"
 
-
+  * element[+]
+    * code = #2162
+    * display = "Landscape architects"
+    * target.code = #17-1012
+    * target.display = "Landscape Architects"
+    * target.equivalence = #subsumes
 //* $ISCO08#2162	"Landscape architects" -> $SOC2010#17-1012	"Landscape Architects"
 
-
+  * element[+]
+    * code = #2163
+    * display = "Product and garment designers"
+    * target.code = #27-1021
+    * target.display = "Commercial and Industrial Designers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2163	"Product and garment designers" -> $SOC2010#27-1021	"Commercial and Industrial Designers"
+
+  * element[+]
+    * code = #2163
+    * display = "Product and garment designers"
+    * target.code = #27-1022
+    * target.display = "Fashion Designers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2163	"Product and garment designers" -> $SOC2010#27-1022 	"Fashion Designers"
+
+  * element[+]
+    * code = #2163
+    * display = "Product and garment designers"
+    * target.code = #27-1029
+    * target.display = "Designers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2163	"Product and garment designers" -> $SOC2010#27-1029	"Designers, All Other"
 
-
+  * element[+]
+    * code = #2164
+    * display = "Town and traffic planners"
+    * target.code = #19-3051
+    * target.display = "Urban and Regional Planners"
+    * target.equivalence = #subsumes
 //* $ISCO08#2164	"Town and traffic planners" -> $SOC2010#19-3051	"Urban and Regional Planners"
 
-
+  * element[+]
+    * code = #2165
+    * display = "Cartographers and surveyors"
+    * target.code = #17-1021
+    * target.display = "Cartographers and Photogrammetrists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2165	"Cartographers and surveyors" -> $SOC2010#17-1021	"Cartographers and Photogrammetrists"
+
+  * element[+]
+    * code = #2165
+    * display = "Cartographers and surveyors"
+    * target.code = #17-1022
+    * target.display = "Surveyors"
+    * target.equivalence = #subsumes
 //* $ISCO08#2165	"Cartographers and surveyors" -> $SOC2010#17-1022	"Surveyors"
 
-
+  * element[+]
+    * code = #2166
+    * display = "Graphic and multimedia designers"
+    * target.code = #27-1014
+    * target.display = "Multimedia Artists and Animators"
+    * target.equivalence = #subsumes
 //* $ISCO08#2166	"Graphic and multimedia designers" -> $SOC2010#27-1014 	"Multimedia Artists and Animators"
+
+  * element[+]
+    * code = #2166
+    * display = "Graphic and multimedia designers"
+    * target.code = #27-1024
+    * target.display = "Graphic Designers"
+    * target.equivalence = #subsumes
 //* $ISCO08#2166	"Graphic and multimedia designers" -> $SOC2010#27-1024	"Graphic Designers"
 
-
+  * element[+]
+    * code = #2211
+    * display = "Generalist medical practitioners"
+    * target.code = #29-1062	
+    * target.display = "Family and General Practitioners"
+    * target.equivalence = #subsumes
 //* $ISCO08#2211	"Generalist medical practitioners" -> $SOC2010#29-1062	"Family and General Practitioners"
+
+  * element[+]
+    * code = #2211
+    * display = "Generalist medical practitioners"
+    * target.code = #29-1063	
+    * target.display = "Internists, General"
+    * target.equivalence = #subsumes
 //* $ISCO08#2211	"Generalist medical practitioners" -> $SOC2010#29-1063 	"Internists, General"
+
+  * element[+]
+    * code = #2211
+    * display = "Generalist medical practitioners"
+    * target.code = #29-1065	
+    * target.display = "Pediatricians, General"
+    * target.equivalence = #subsumes
 //* $ISCO08#2211	"Generalist medical practitioners" -> $SOC2010#29-1065	"Pediatricians, General"
+
+  * element[+]
+    * code = #2211
+    * display = "Generalist medical practitioners"
+    * target.code = #29-1069	
+    * target.display = "Physicians and Surgeons, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2211	"Generalist medical practitioners" -> $SOC2010#29-1069	"Physicians and Surgeons, All Other"
 
-
+  * element[+]
+    * code = #2212
+    * display = "Specialist medical practitioners"
+    * target.code = #29-1061
+    * target.display = "Anesthesiologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2212	"Specialist medical practitioners" -> $SOC2010#29-1061	"Anesthesiologists"
+
+  * element[+]
+    * code = #2212
+    * display = "Specialist medical practitioners"
+    * target.code = #29-1064
+    * target.display = "Obstetricians and Gynecologists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2212	"Specialist medical practitioners" -> $SOC2010#29-1064 	"Obstetricians and Gynecologists"
+
+  * element[+]
+    * code = #2212
+    * display = "Specialist medical practitioners"
+    * target.code = #29-1066
+    * target.display = "Psychiatrists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2212	"Specialist medical practitioners" -> $SOC2010#29-1066 	"Psychiatrists"
+
+  * element[+]
+    * code = #2212
+    * display = "Specialist medical practitioners"
+    * target.code = #29-1067
+    * target.display = "Surgeons"
+    * target.equivalence = #subsumes
 //* $ISCO08#2212	"Specialist medical practitioners" -> $SOC2010#29-1067 	"Surgeons"
+
+  * element[+]
+    * code = #2212
+    * display = "Specialist medical practitioners"
+    * target.code = #29-1069
+    * target.display = "Physicians and Surgeons, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2212	"Specialist medical practitioners" -> $SOC2010#29-1069	"Physicians and Surgeons, All Other"
 
-
+  * element[+]
+    * code = #2221
+    * display = "Nursing professionals"
+    * target.code = #29-1141
+    * target.display = "Registered Nurses"
+    * target.equivalence = #subsumes
 //* $ISCO08#2221	"Nursing professionals" -> $SOC2010#29-1141	"Registered Nurses"
+
+  * element[+]
+    * code = #2221
+    * display = "Nursing professionals"
+    * target.code = #29-1151
+    * target.display = "Nurse Anesthetists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2221	"Nursing professionals" -> $SOC2010#29-1151	"Nurse Anesthetists"
+
+  * element[+]
+    * code = #2221
+    * display = "Nursing professionals"
+    * target.code = #29-1171
+    * target.display = "Nurse Practitioners"
+    * target.equivalence = #subsumes
 //* $ISCO08#2221	"Nursing professionals" -> $SOC2010#29-1171 	"Nurse Practitioners"
 
-
+  * element[+]
+    * code = #2222
+    * display = "Midwifery professionals"
+    * target.code = #29-1161
+    * target.display = "Nurse Midwives"
+    * target.equivalence = #subsumes
 //* $ISCO08#2222	"Midwifery professionals" -> $SOC2010#29-1161 	"Nurse Midwives"
 
-
+  * element[+]
+    * code = #2230
+    * display = "Traditional and complementary medicine professionals"
+    * target.code = #29-1199 
+    * target.display = "Health Diagnosing and Treating Practitioners, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2230	"Traditional and complementary medicine professionals" -> $SOC2010#29-1199 	"Health Diagnosing and Treating Practitioners, All Other"
 
-
+  * element[+]
+    * code = #2240
+    * display = "Paramedical practitioners"
+    * target.code = #29-1071 
+    * target.display = "Physician Assistants"
+    * target.equivalence = #subsumes
 //* $ISCO08#2240	"Paramedical practitioners" -> $SOC2010#29-1071	"Physician Assistants"
 
-
+  * element[+]
+    * code = #2250
+    * display = "Veterinarians"
+    * target.code = #29-1131
+    * target.display = "Veterinarians"
+    * target.equivalence = #subsumes
 //* $ISCO08#2250	"Veterinarians" -> $SOC2010#29-1131	"Veterinarians"
 
 
