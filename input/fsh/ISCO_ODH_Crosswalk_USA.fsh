@@ -110,7 +110,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3011
     * target.display = "Air Crew Members"
     * target.equivalence = #subsumes
@@ -118,7 +118,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3012
     * target.display = "Aircraft Launch and Recovery Specialists"
     * target.equivalence = #subsumes
@@ -126,7 +126,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3013
     * target.display = "Armored Assault Vehicle Crew Members"
     * target.equivalence = #subsumes
@@ -134,7 +134,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3014
     * target.display = "Artillery and Missile Crew Members"
     * target.equivalence = #subsumes
@@ -142,7 +142,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3015
     * target.display = "Command and Control Center Specialists"
     * target.equivalence = #subsumes
@@ -150,7 +150,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3016
     * target.display = "Infantry"
     * target.equivalence = #subsumes
@@ -158,7 +158,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3017
     * target.display = "Radar and Sonar Technicians"
     * target.equivalence = #subsumes
@@ -166,7 +166,7 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3018
     * target.display = "Special Forces"
     * target.equivalence = #subsumes
@@ -174,30 +174,60 @@ Usage:        #definition
 
   * element[+]
     * code = #0310
-    * display = "Non-commissioned armed forces officers"
+    * display = "Armed forces occupations, other ranks"
     * target.code = #55-3019
     * target.display = "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
     * target.equivalence = #subsumes
 //* $ISCO08#0310	"Armed forces occupations, other ranks" -> $SOC2010#55-3019 	"Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
 
 
-//  * element[+]
-//    * code = #1111
- //    * insert element.target(#11-1031, #narrower)
+  * element[+]
+    * code = #1111
+    * display = "Legislators"
+    * target.code = #11-1031
+    * target.display = "Legislators"
+    * target.equivalence = #subsumes
 //* $ISCO08#1111	"Legislators" -> $SOC2010#11-1031       "Legislators"
 
 
-
-
-
-
-
+  * element[+]
+    * code = #1112
+    * display = "Senior government officials"
+    * target.code = #11-1011
+    * target.display = "Chief Executives"
+    * target.equivalence = #subsumes
 //* $ISCO08#1112	"Senior government officials" -> $SOC2010#11-1011	"Chief Executives"
+
+  * element[+]
+    * code = #1112
+    * display = "Senior government officials"
+    * target.code = #11-1021
+    * target.display = "General and Operations Managers"
+    * target.equivalence = #subsumes
 //* $ISCO08#1112	"Senior government officials" -> $SOC2010#11-1021	"General and Operations Managers"
+
+  * element[+]
+    * code = #1112
+    * display = "Senior government officials"
+    * target.code = #11-9161
+    * target.display = "Emergency Management Directors"
+    * target.equivalence = #subsumes
 //* $ISCO08#1112	"Senior government officials" -> $SOC2010#11-9161	"Emergency Management Directors"
 
-
+  * element[+]
+    * code = #1113
+    * display = "Traditional chiefs and heads of villages"
+    * target.code = #11-1011
+    * target.display = "Chief Executives"
+    * target.equivalence = #subsumes
 //* $ISCO08#1113	"Traditional chiefs and heads of villages" -> $SOC2010#11-1011	"Chief Executives"
+
+  * element[+]
+    * code = #1113
+    * display = "Traditional chiefs and heads of villages"
+    * target.code = #11-1031
+    * target.display = "Legislators"
+    * target.equivalence = #subsumes
 //* $ISCO08#1113	"Traditional chiefs and heads of villages" -> $SOC2010#11-1031	"Legislators"
 
 
