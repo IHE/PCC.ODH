@@ -17,7 +17,7 @@ Usage:        #definition
 * description = "ISCO08 to USA SOC Crosswalk"
 * group[+]
   * source = Canonical(InternationalClassificationOfOccupations2008)
-  * target = Canonical(https://terminology.hl7.org/CodeSystem-soc.html)
+  * target = Canonical(http://terminology.hl7.org/CodeSystem/soc)
 //  * target.targetUri = "2.16.840.1.114222.4.11.7186" 
   * element[+]
     * code = #0110
@@ -1320,72 +1320,433 @@ Usage:        #definition
 //* $ISCO08#2267	"Optometrists and ophthalmic opticians" -> $SOC2010#29-1041	"Optometrists"
 
 
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-1011
+    * target.display = "Chiropractors"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-1011 	"Chiropractors"
+
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-1081
+    * target.display = "Podiatrists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-1081 	"Podiatrists"
+
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-1122
+    * target.display = "Occupational Therapists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-1122	"Occupational Therapists"
+
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-1125
+    * target.display = "Recreational Therapists"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-1125 	"Recreational Therapists"
+
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-1129
+    * target.display = "Therapists, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-1129 	"Therapists, All Other"
+
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-1199
+    * target.display = "Health Diagnosing and Treating Practitioners, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-1199 	"Health Diagnosing and Treating Practitioners, All Other"
+
+  * element[+]
+    * code = #2269
+    * display = "Health professionals not elsewhere classified"
+    * target.code = #29-9092
+    * target.display = "Genetic Counselors"
+    * target.equivalence = #subsumes
 //* $ISCO08#2269	"Health professionals not elsewhere classified" -> $SOC2010#29-9092 	"Genetic Counselors"
 
 
-
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1011
+    * target.display = "Business Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1011	"Business Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1021
+    * target.display = "Computer Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1021	"Computer Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1022
+    * target.display = "Mathematical Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1022	"Mathematical Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1031
+    * target.display = "Architecture Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1031	"Architecture Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1032
+    * target.display = "Engineering Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1032	"Engineering Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1041
+    * target.display = "Agricultural Sciences Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1041	"Agricultural Sciences Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1042
+    * target.display = "Biological Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1042	"Biological Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1043
+    * target.display = "Forestry and Conservation Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1043	"Forestry and Conservation Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1051
+    * target.display = "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1051	"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1052
+    * target.display = "Chemistry Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1052	"Chemistry Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1053
+    * target.display = "Environmental Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1053	"Environmental Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1054
+    * target.display = "Physics Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1054	"Physics Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1061
+    * target.display = "Anthropology and Archeology Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1061	"Anthropology and Archeology Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1062
+    * target.display = "Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1062	"Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1063
+    * target.display = "Economics Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1063	"Economics Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1064
+    * target.display = "Geography Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1064	"Geography Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1065
+    * target.display = "Political Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1065	"Political Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1066
+    * target.display = "Psychology Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1066	"Psychology Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1067
+    * target.display = "Sociology Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1067	"Sociology Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1069
+    * target.display = "Social Sciences Teachers, Postsecondary, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1069	"Social Sciences Teachers, Postsecondary, All Other"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1071
+    * target.display = "Health Specialties Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1071	"Health Specialties Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1072
+    * target.display = "Nursing Instructors and Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1072	"Nursing Instructors and Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1081
+    * target.display = "Education Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1081	"Education Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1082
+    * target.display = "Library Science Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1082	"Library Science Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1111
+    * target.display = "Criminal Justice and Law Enforcement Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1111	"Criminal Justice and Law Enforcement Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1112
+    * target.display = "Law Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1112	"Law Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1113
+    * target.display = "Social Work Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1113	"Social Work Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1121
+    * target.display = "Art, Drama, and Music Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1121	"Art, Drama, and Music Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1122
+    * target.display = "Communications Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1122	"Communications Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1123
+    * target.display = "English Language and Literature Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1123	"English Language and Literature Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1124
+    * target.display = "Foreign Language and Literature Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1124	"Foreign Language and Literature Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1125
+    * target.display = "History Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1125	"History Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1126
+    * target.display = "Philosophy and Religion Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1126	"Philosophy and Religion Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1191
+    * target.display = "Graduate Teaching Assistants"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1191	"Graduate Teaching Assistants"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1192
+    * target.display = "Home Economics Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1192	"Home Economics Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1193
+    * target.display = "Recreation and Fitness Studies Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1193	"Recreation and Fitness Studies Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2310
+    * display = "University and higher education teachers"
+    * target.code = #25-1199
+    * target.display = "Postsecondary Teachers, All Other"
+    * target.equivalence = #subsumes
 //* $ISCO08#2310	"University and higher education teachers" -> $SOC2010#25-1199	"Postsecondary Teachers, All Other"
 
 
 
+  * element[+]
+    * code = #2320
+    * display = "Vocational education teachers"
+    * target.code = #25-1194
+    * target.display = "Vocational Education Teachers, Postsecondary"
+    * target.equivalence = #subsumes
 //* $ISCO08#2320	"Vocational education teachers" -> $SOC2010#25-1194	"Vocational Education Teachers, Postsecondary"
+
+  * element[+]
+    * code = #2320
+    * display = "Vocational education teachers"
+    * target.code = #25-2023
+    * target.display = "Career/Technical Education Teachers, Middle School"
+    * target.equivalence = #subsumes
 //* $ISCO08#2320	"Vocational education teachers" -> $SOC2010#25-2023 	"Career/Technical Education Teachers, Middle School"
+
+  * element[+]
+    * code = #2320
+    * display = "Vocational education teachers"
+    * target.code = #25-2032
+    * target.display = "Career/Technical Education Teachers, Middle School"
+    * target.equivalence = #subsumes
 //* $ISCO08#2320	"Vocational education teachers" -> $SOC2010#25-2032	"Career/Technical Education Teachers, Secondary School"
 
 
+  * element[+]
+    * code = #2330
+    * display = "Secondary education teachers"
+    * target.code = #25-2031
+    * target.display = "Secondary School Teachers, Except Special and Career/Technical Education"
+    * target.equivalence = #subsumes
 //* $ISCO08#2330	"Secondary education teachers" -> $SOC2010#25-2031	"Secondary School Teachers, Except Special and Career/Technical Education"
 
 
+  * element[+]
+    * code = #2341
+    * display = "Primary school teachers"
+    * target.code = #25-2021
+    * target.display = "Elementary School Teachers, Except Special Education"
+    * target.equivalence = #subsumes
 //* $ISCO08#2341	"Primary school teachers" -> $SOC2010#25-2021	"Elementary School Teachers, Except Special Education"
+
+  * element[+]
+    * code = #2341
+    * display = "Primary school teachers"
+    * target.code = #25-2022
+    * target.display = "Middle School Teachers, Except Special and Career/Technical Education"
+    * target.equivalence = #subsumes
 //* $ISCO08#2341	"Primary school teachers" -> $SOC2010#25-2022	"Middle School Teachers, Except Special and Career/Technical Education"
 
-
+  * element[+]
+    * code = #2342
+    * display = "Early childhood educators"
+    * target.code = #25-2011
+    * target.display = "Preschool Teachers, Except Special Education"
+    * target.equivalence = #subsumes
 //* $ISCO08#2342	"Early childhood educators" -> $SOC2010#25-2011	"Preschool Teachers, Except Special Education"
+
+  * element[+]
+    * code = #2342
+    * display = "Early childhood educators"
+    * target.code = #25-2012
+    * target.display = "Kindergarten Teachers, Except Special Education"
+    * target.equivalence = #subsumes
 //* $ISCO08#2342	"Early childhood educators" -> $SOC2010#25-2012	"Kindergarten Teachers, Except Special Education"
 
-
+  * element[+]
+    * code = #2351
+    * display = "Education methods specialists"
+    * target.code = #25-9031
+    * target.display = "Instructional Coordinators"
+    * target.equivalence = #subsumes
 //* $ISCO08#2351	"Education methods specialists" -> $SOC2010#25-9031	"Instructional Coordinators"
 
 

@@ -7,7 +7,7 @@ Published by IHE with authority from the International Labor Organization Given 
 """
 Id: ISCO08
 //* ^url = oid:1.3.6.1.4.1.19376.1.5.3.5
-* ^url =  https://metadata.ilo.org/thesaurus.html
+//* ^url =  https://metadata.ilo.org/thesaurus.html
 * ^experimental = false 
 * ^caseSensitive = true
 * ^hierarchyMeaning = http://hl7.org/fhir/codesystem-hierarchy-meaning#is-a  
