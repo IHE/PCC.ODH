@@ -17,7 +17,7 @@ Usage:        #definition
 * description = "ISCO08 to USA SOC Crosswalk"
 * group[+]
   * source = Canonical(InternationalClassificationOfOccupations2008)
-  * target = Canonical(https://phinvads.cdc.gov/vads/ViewValueSet.action?id=044B66C7-33CF-46D5-B252-BBA8A8819EEF)
+  * target = Canonical(https://phinvads.cdc.gov/vads/)
   * element[+]
     * code = #0110
     * display = "Commissioned armed forces officers"
