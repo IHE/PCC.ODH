@@ -13,6 +13,7 @@ Usage:        #definition
 * group[+]
   * source = Canonical(InternationalClassificationOfOccupations2008)
   * target = Canonical(http://terminology.hl7.org/CodeSystem/soc)
+    * target.equivalence = #subsumes
     
   * element[+]
     * target.code = #11-1011 
@@ -9010,4 +9011,4 @@ Usage:        #definition
     * target.code = #55-3019 
     * target.display = "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other" 
     * code = #0310 
-    * display = "Armed forces occupations, other ranks
+    * display = "Armed forces occupations, other ranks"

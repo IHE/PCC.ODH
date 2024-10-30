@@ -13,6 +13,7 @@ Usage:        #definition
 * group[+]
   * source = Canonical(http://terminology.hl7.org/CodeSystem/soc)
   * target = Canonical(InternationalClassificationOfOccupations2008)
+    * target.equivalence = #subsumes
   * element[+]
     * target.code = #0110      	
     * target.display = "Commissioned armed forces officers"
@@ -3115,7 +3116,8 @@ Usage:        #definition
     * target.equivalence = #subsumes
 
   * element[+]
-    * target.code = #3322 	Commercial sales representatives"
+    * target.code = #3322   	
+    * target.display = "Commercial sales representatives"
     * code = #41-4012  	
     * display = "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
     * target.equivalence = #subsumes
