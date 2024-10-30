@@ -23,6 +23,13 @@ WARNING: ValueSet.where(id = 'odf-occupationVS'): Error from http://tx.fhir.org/
 WARNING: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, https://metadata.ilo.org/thesaurus.html was not found
 WARNING: Observation/observation-odh-past-or-present-job-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH was not found
 
+# We are aware that we are referencing Draft code systems 
+INFORMATION: Observation/observation-odh-employment-status-sample: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|3.1.0
+INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[5].value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|3.1.0
+
 
 # TODO: did NOT use in an example 
 WARNING: StructureDefinition.where(url = 'https://profiles.ihe.net/PCC/ODH/StructureDefinition/odh-Employer-extension'): The Implementation Guide contains no examples for this extension
+
+
+
