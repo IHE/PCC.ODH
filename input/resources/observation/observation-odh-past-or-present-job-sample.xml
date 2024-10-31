@@ -29,9 +29,9 @@
     </performer>
     <valueCodeableConcept>
         <coding>
-            <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
-            <code value="13.11.2"/>
-            <display value="Nursing, psychiatric, and home health aides"/>
+            <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08"/>
+            <code value="5322"/>
+            <display value="Home-based Personal Care Workers"/>
         </coding>
     </valueCodeableConcept>
     <component>
@@ -45,13 +45,13 @@
         <valueCodeableConcept>
             <coding>
                 <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
-                <code value="13.11.2"/>
-                <display value="Nursing care facilities"/>
+                <code value="871"/>
+                <display value="Residential nursing care facilities"/>
             </coding>
             <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH"/>
-                <code value="621610.008495"/>
-                <display value="Home nursing services"/>
+                <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08"/>
+                <code value="5322"/>
+                <display value="Home-based Personal Care Workers"/>
             </coding>
         </valueCodeableConcept>
     </component>

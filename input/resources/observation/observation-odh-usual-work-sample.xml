@@ -26,14 +26,14 @@
     </performer>
     <valueCodeableConcept>
         <coding>
-            <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
-            <code value="13.11.2"/>
-            <display value="Nursing, psychiatric, and home health aides"/>
+            <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08"/>
+            <code value="5322"/>
+            <display value="Home-based Personal Care Workers"/>
         </coding>
         <coding>
-            <system value="urn:oid:2.16.840.1.114222.4.5.327"/>
-            <code value="31-1014.00.007136"/>
-            <display value="Certified Nursing Assistant (CNA) [Nursing Assistants]"/>
+            <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08"/>
+            <code value="2221"/>
+            <display value="Nursing Professionals"/>
         </coding>
     </valueCodeableConcept>
     <component>
@@ -47,13 +47,13 @@
         <valueCodeableConcept>
             <coding>
                 <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
-                <code value="13.11.2"/>
-                <display value="Nursing care facilities"/>
+                <code value="871"/>
+                <display value="Residential nursing care facilities"/>
             </coding>
             <coding>
-                <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
-                <code value="13.11.2"/>
-                <display value="Home nursing services"/>
+                <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08"/>
+                <code value="15322"/>
+                <display value="Home-based Personal Care Workers"/>
             </coding>
         </valueCodeableConcept>
     </component>

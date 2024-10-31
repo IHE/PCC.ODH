@@ -408,7 +408,7 @@ Usage:        #definition
   * element[+]
     * target.code = #1342   
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Health services managers"		
+    * target.display = "Health Service Managers"		
     * code = #11-9111  	
     * display = "Health Service Managers"
 
