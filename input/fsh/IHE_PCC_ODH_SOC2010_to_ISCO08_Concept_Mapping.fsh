@@ -67,7 +67,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "General and Operations Managers" 
     * code = #1343 
-    * display = "Aged care services managers"
+    * display = "Aged Care Service Managers"
 
     
   * element[+]
@@ -276,7 +276,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Education Administrators, Preschool and Childcare Center/Program" 
     * code = #1341 
-    * display = "Child care services managers"
+    * display = "Child Care Service Managers"
 
     
   * element[+]
@@ -348,7 +348,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Medical and Health Services Managers" 
     * code = #1342 
-    * display = "Health services managers"
+    * display = "Health Service Managers"
 
     
   * element[+]
@@ -356,7 +356,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Medical and Health Services Managers" 
     * code = #1343 
-    * display = "Aged care services managers"
+    * display = "Aged Care Service Managers"
 
     
   * element[+]
@@ -596,7 +596,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Fundraisers" 
     * code = #4214 
-    * display = "Debt-collectors and related workers"
+    * display = "Debt Collectors and Related Workers"
 
     
   * element[+]
@@ -836,7 +836,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Network and Computer Systems Administrators" 
     * code = #2522 
-    * display = "Systems administrators"
+    * display = "Systems Aministrators"
 
     
   * element[+]
@@ -1762,7 +1762,7 @@ Usage:        #definition
   * element[+]
     * target.code = #21-1091
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Health Educators " 
+    * target.display = "Health Educators" 
     * code = #2263 
     * display = "Environmental and occupational health and hygiene professionals"
 
@@ -2298,7 +2298,7 @@ Usage:        #definition
   * element[+]
     * target.code = #25-3011
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Adult Basic and Secondary Education and Literacy Teachers and Instructors " 
+    * target.display = "Adult Basic and Secondary Education and Literacy Teachers and Instructors" 
     * code = #2353 
     * display = "Other language teachers"
 
@@ -2340,7 +2340,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Self-Enrichment Education Teachers" 
     * code = #3423 
-    * display = "Fitness and recreation instructors and program leaders"
+    * display = "Fitness and Recreation Instructors and Programme Leaders"
 
     
   * element[+]
@@ -2949,7 +2949,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Anesthesiologists" 
     * code = #2212 
-    * display = "Specialist medical practitioners "
+    * display = "Specialist Medical Practitioners"
 
     
   * element[+]
@@ -2957,7 +2957,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Family and General Practitioners" 
     * code = #2211 
-    * display = "Generalist medical practitioners "
+    * display = "Generalist Medical Practitioners"
 
     
   * element[+]
@@ -2965,7 +2965,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Internists, General" 
     * code = #2211 
-    * display = "Generalist medical practitioners "
+    * display = "Generalist Medical Practitioners"
 
     
   * element[+]
@@ -2973,7 +2973,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Obstetricians and Gynecologists" 
     * code = #2212 
-    * display = "Specialist medical practitioners "
+    * display = "Specialist Medical Practitioners"
 
     
   * element[+]
@@ -2981,7 +2981,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Pediatricians, General" 
     * code = #2211 
-    * display = "Generalist medical practitioners "
+    * display = "Generalist Medical Practitioners"
 
     
   * element[+]
@@ -2989,7 +2989,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Psychiatrists" 
     * code = #2212 
-    * display = "Specialist medical practitioners "
+    * display = "Specialist Medical Practitioners"
 
     
   * element[+]
@@ -2997,7 +2997,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Surgeons" 
     * code = #2212 
-    * display = "Specialist medical practitioners "
+    * display = "Specialist Medical Practitioners"
 
     
   * element[+]
@@ -3005,7 +3005,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Physicians and Surgeons, All Other" 
     * code = #2211 
-    * display = "Generalist medical practitioners "
+    * display = "Generalist Medical Practitioners"
 
     
   * element[+]
@@ -3013,7 +3013,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Physicians and Surgeons, All Other" 
     * code = #2212 
-    * display = "Specialist medical practitioners "
+    * display = "Specialist Medical Practitioners"
 
     
   * element[+]
@@ -3045,7 +3045,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Physical Therapists" 
     * code = #2264 
-    * display = "Physiotherapists "
+    * display = "Physiotherapists"
 
     
   * element[+]
@@ -3085,7 +3085,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Exercise Physiologists" 
     * code = #2264 
-    * display = "Physiotherapists "
+    * display = "Physiotherapists"
 
     
   * element[+]
@@ -3173,7 +3173,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Medical and Clinical Laboratory Technologists" 
     * code = #3212 
-    * display = "Medical and pathology laboratory technicians "
+    * display = "Medical and Pathology Laboratory Technicians"
 
     
   * element[+]
@@ -3181,7 +3181,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Medical and Clinical Laboratory Technicians" 
     * code = #3212 
-    * display = "Medical and pathology laboratory technicians "
+    * display = "Medical and Pathology Laboratory Technicians"
 
     
   * element[+]
@@ -3219,7 +3219,7 @@ Usage:        #definition
   * element[+]
     * target.code = #29-2034
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Radiologic Technologists " 
+    * target.display = "Radiologic Technologists" 
     * code = #3211 
     * display = "Medical imaging and therapeutic equipment technicians"
 
@@ -3365,7 +3365,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Athletic Trainers" 
     * code = #3423 
-    * display = "Fitness and recreation instructors and program leaders"
+    * display = "Fitness and Recreation Instructors and Programme Leaders"
 
     
   * element[+]
@@ -3613,7 +3613,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "First-Line Supervisors of Fire Fighting and Prevention Workers" 
     * code = #5411 
-    * display = "Fire-fighters"
+    * display = "Fire Fighters"
 
     
   * element[+]
@@ -3637,7 +3637,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Firefighters" 
     * code = #5411 
-    * display = "Fire-fighters"
+    * display = "Fire Fighters"
 
     
   * element[+]
@@ -4141,7 +4141,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "First-Line Supervisors of Personal Service Workers" 
     * code = #3423 
-    * display = "Fitness and recreation instructors and program leaders"
+    * display = "Fitness and Recreation Instructors and Programme Leaders"
 
     
   * element[+]
@@ -4461,7 +4461,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Fitness Trainers and Aerobics Instructors" 
     * code = #3423 
-    * display = "Fitness and recreation instructors and program leaders"
+    * display = "Fitness and Recreation Instructors and Programme Leaders"
 
     
   * element[+]
@@ -4791,7 +4791,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers" 
     * code = #5243 
-    * display = "Door to door salespersons"
+    * display = "Door-to-door Salespersons"
 
     
   * element[+]
@@ -4863,7 +4863,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Bill and Account Collectors" 
     * code = #4214 
-    * display = "Debt-collectors and related workers"
+    * display = "Debt Collectors and Related Workers"
 
     
   * element[+]
@@ -4951,7 +4951,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Correspondence Clerks" 
     * code = #4225 
-    * display = "Enquiry clerks"
+    * display = "Inquiry Clerks"
 
     
   * element[+]
@@ -5071,7 +5071,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Receptionists and Information Clerks" 
     * code = #4225 
-    * display = "Enquiry clerks"
+    * display = "Inquiry Clerks"
 
     
   * element[+]
@@ -5127,7 +5127,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Cargo and Freight Agents" 
     * code = #3331 
-    * display = "Clearing and forwarding agents"
+    * display = "Clearing and Forwarding Aents"
 
     
   * element[+]
@@ -5231,7 +5231,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Shipping, Receiving, and Traffic Clerks" 
     * code = #3331 
-    * display = "Clearing and forwarding agents"
+    * display = "Clearing and Forwarding Aents"
 
     
   * element[+]
@@ -5367,7 +5367,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Proofreaders and Copy Markers" 
     * code = #4413 
-    * display = "Coding, proof-reading and related clerks"
+    * display = "Coding, Proofreading and Related Clerks"
 
     
   * element[+]
@@ -5511,7 +5511,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Agricultural Inspectors" 
     * code = #3359 
-    * display = "Regulatory government associate professionals not elsewhere classified"
+    * display = "Government Regulatory AssociatePprofessionals Not Elsewhere Classified"
 
     
   * element[+]
@@ -5871,7 +5871,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Boilermakers" 
     * code = #7213 
-    * display = "Sheet-metal workers"
+    * display = "Sheet Metal Workers"
 
     
   * element[+]
@@ -6071,7 +6071,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Reinforcing Iron and Rebar Workers" 
     * code = #7214 
-    * display = "Structural-metal preparers and erectors"
+    * display = "Structural Metal Preparers and Erectors"
 
     
   * element[+]
@@ -6087,7 +6087,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Sheet Metal Workers" 
     * code = #7213 
-    * display = "Sheet-metal workers"
+    * display = "Sheet Metal Workers"
 
     
   * element[+]
@@ -6095,7 +6095,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Structural Iron and Steel Workers" 
     * code = #7214 
-    * display = "Structural-metal preparers and erectors"
+    * display = "Structural Metal Preparers and Erectors"
 
     
   * element[+]
@@ -6439,7 +6439,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "First-Line Supervisors of Mechanics, Installers, and Repairers" 
     * code = #7413 
-    * display = "Electrical line installers and repairers "
+    * display = "Electrical Line Installers and Repairers"
 
     
   * element[+]
@@ -6792,7 +6792,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Electrical Power-Line Installers and Repairers" 
     * code = #7413 
-    * display = "Electrical line installers and repairers "
+    * display = "Electrical Line Installers and Repairers"
 
     
   * element[+]
@@ -7000,7 +7000,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Structural Metal Fabricators and Fitters" 
     * code = #7214 
-    * display = "Structural-metal preparers and erectors"
+    * display = "Structural Metal Preparers and Erectors"
 
     
   * element[+]
@@ -7094,9 +7094,9 @@ Usage:        #definition
   * element[+]
     * target.code = #51-3092
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Food Batchmakers " 
+    * target.display = "Food Batchmakers" 
     * code = #7513 
-    * display = "Dairy-products makers"
+    * display = "Dairy Products Makers"
 
     
   * element[+]
@@ -7136,7 +7136,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Computer-Controlled Machine Tool Operators, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7160,7 +7160,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7184,7 +7184,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Forging Machine Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7208,7 +7208,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7232,7 +7232,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7248,7 +7248,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7264,7 +7264,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7280,7 +7280,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7296,7 +7296,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7312,7 +7312,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Machinists" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7384,7 +7384,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7400,7 +7400,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Welders, Cutters, Solderers, and Brazers" 
     * code = #7212 
-    * display = "Welders and flamecutters"
+    * display = "Welders and Flame Cutters"
 
     
   * element[+]
@@ -7408,7 +7408,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders" 
     * code = #7212 
-    * display = "Welders and flamecutters"
+    * display = "Welders and Flame Cutters"
 
     
   * element[+]
@@ -7432,7 +7432,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Layout Workers, Metal and Plastic" 
     * code = #7213 
-    * display = "Sheet-metal workers"
+    * display = "Sheet Metal Workers"
 
     
   * element[+]
@@ -7472,7 +7472,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Metal Workers and Plastic Workers, All Other" 
     * code = #7223 
-    * display = "Metal working machine tool setters and operators"
+    * display = "Metal Working Machine Tool Setters and Operators"
 
     
   * element[+]
@@ -7504,7 +7504,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Printing Press Operators" 
     * code = #7322 
-    * display = "Printers "
+    * display = "Printers"
 
     
   * element[+]
@@ -7600,7 +7600,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Textile Cutting Machine Setters, Operators, and Tenders" 
     * code = #7532 
-    * display = "Garment and related pattern-makers and cutters"
+    * display = "Garment and Related Patternmakers and Cutters"
 
     
   * element[+]
@@ -7632,7 +7632,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Fabric and Apparel Patternmakers" 
     * code = #7532 
-    * display = "Garment and related pattern-makers and cutters"
+    * display = "Garment and Related Patternmakers and Cutters"
 
     
   * element[+]
@@ -7816,7 +7816,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders" 
     * code = #7513 
-    * display = "Dairy-products makers"
+    * display = "Dairy Products Makers"
 
     
   * element[+]
@@ -7904,7 +7904,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Cutters and Trimmers, Hand" 
     * code = #7532 
-    * display = "Garment and related pattern-makers and cutters"
+    * display = "Garment and Related Patternmakers and Cutters"
 
     
   * element[+]
@@ -7976,7 +7976,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Inspectors, Testers, Sorters, Samplers, and Weighers" 
     * code = #7543 
-    * display = "Product graders and testers (excluding foods and beverages)"
+    * display = "Product Graders and Testers (except Foods and Beverages)"
 
     
   * element[+]
@@ -7984,7 +7984,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Jewelers and Precious Stone and Metal Workers" 
     * code = #7313 
-    * display = "Jewellery and precious-metal workers"
+    * display = "Jewellery and Precious Metal Workers"
 
     
   * element[+]
@@ -8438,7 +8438,7 @@ Usage:        #definition
   * element[+]
     * target.code = #53-3021
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Bus Drivers, Transit and Intercity " 
+    * target.display = "Bus Drivers, Transit and Intercity" 
     * code = #8331 
     * display = "Bus and tram drivers"
 
@@ -8446,7 +8446,7 @@ Usage:        #definition
   * element[+]
     * target.code = #53-3022
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Bus Drivers, School or Special Client " 
+    * target.display = "Bus Drivers, School or Special Client" 
     * code = #8331 
     * display = "Bus and tram drivers"
 
@@ -8630,7 +8630,7 @@ Usage:        #definition
   * element[+]
     * target.code = #53-6061
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Transportation Attendants, Except Flight Attendants " 
+    * target.display = "Transportation Attendants, Except Flight Attendants" 
     * code = #5111 
     * display = "Travel attendants and travel stewards"
 
@@ -8638,7 +8638,7 @@ Usage:        #definition
   * element[+]
     * target.code = #53-6061
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
-    * target.display = "Transportation Attendants, Except Flight Attendants " 
+    * target.display = "Transportation Attendants, Except Flight Attendants" 
     * code = #5112 
     * display = "Transport conductors"
 

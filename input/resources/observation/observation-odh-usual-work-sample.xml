@@ -26,7 +26,7 @@
     </performer>
     <valueCodeableConcept>
         <coding>
-            <system value="https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm"/>
+            <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
             <code value="13.11.2"/>
             <display value="Nursing, psychiatric, and home health aides"/>
         </coding>
@@ -46,12 +46,12 @@
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm"/>
+                <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
                 <code value="13.11.2"/>
                 <display value="Nursing care facilities"/>
             </coding>
             <coding>
-                <system value="https://metadata.ilo.org/thesaurus.html"/>
+                <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4"/>
                 <code value="13.11.2"/>
                 <display value="Home nursing services"/>
             </coding>

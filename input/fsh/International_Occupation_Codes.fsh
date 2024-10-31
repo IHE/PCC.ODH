@@ -530,6 +530,7 @@ Id: ISCO08
     * #815	    "Textile, Fur and Leather Products Machine Operators"
       * #8151 	"Fibre Preparing, Spinning and Winding Machine Operators"
       * #8152	    "Weaving and Knitting Machine Operators"
+      * #8153     "Sewing machine operators"
       * #8154	    "Bleaching, Dyeing and Fabric Cleaning Machine Operators"
       * #8155	    "Fur and Leather Preparing Machine Operators"
       * #8156	    "Shoemaking and Related Machine Operators"
