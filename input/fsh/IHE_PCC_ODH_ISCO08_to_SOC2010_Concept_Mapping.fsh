@@ -933,63 +933,63 @@ Usage:        #definition
   * element[+]
     * target.code = #2211
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Generalist medical practitioners "
+    * target.display = "Generalist medical practitioners"
     * code = #29-1062  	
     * display = "Family and General Practitioners"
 
   * element[+]
     * target.code = #2211
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Generalist medical practitioners "
+    * target.display = "Generalist medical practitioners"
     * code = #29-1063  	
     * display = "Internists, General"
 
   * element[+]
     * target.code = #2211
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Generalist medical practitioners "
+    * target.display = "Generalist medical practitioners"
     * code = #29-1065  	
     * display = "Pediatricians, General"
 
   * element[+]
     * target.code = #2211
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Generalist medical practitioners "
+    * target.display = "Generalist medical practitioners"
     * code = #29-1069  	
     * display = "Physicians and Surgeons, All Other"
 
   * element[+]
     * target.code = #2212
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Specialist medical practitioners "
+    * target.display = "Specialist medical practitioners"
     * code = #29-1061  	
     * display = "Anesthesiologists"
 
   * element[+]
     * target.code = #2212
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Specialist medical practitioners "
+    * target.display = "Specialist medical practitioners"
     * code = #29-1064  	
     * display = "Obstetricians and Gynecologists"
 
   * element[+]
     * target.code = #2212
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Specialist medical practitioners "
+    * target.display = "Specialist medical practitioners"
     * code = #29-1066  	
     * display = "Psychiatrists"
 
   * element[+]
     * target.code = #2212
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Specialist medical practitioners "
+    * target.display = "Specialist medical practitioners"
     * code = #29-1067  	
     * display = "Surgeons"
 
   * element[+]
     * target.code = #2212
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Specialist medical practitioners "
+    * target.display = "Specialist medical practitioners"
     * code = #29-1069  	
     * display = "Physicians and Surgeons, All Other"
 
@@ -1089,7 +1089,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
     * target.display = "Environmental and occupational health and hygiene professionals"
     * code = #21-1091  	
-    * display = "Health Educators "
+    * display = "Health Educators"
 
   * element[+]
     * target.code = #2263
@@ -1101,14 +1101,14 @@ Usage:        #definition
   * element[+]
     * target.code = #2264
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Physiotherapists "
+    * target.display = "Physiotherapists"
     * code = #29-1123  	
     * display = "Physical Therapists"
 
   * element[+]
     * target.code = #2264
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "Physiotherapists "
+    * target.display = "Physiotherapists"
     * code = #29-1128  	
     * display = "Exercise Physiologists"
 
@@ -1551,7 +1551,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
     * target.display = "Other language teachers"
     * code = #25-3011  	
-    * display = "Adult Basic and Secondary Education and Literacy Teachers and Instructors "
+    * display = "Adult Basic and Secondary Education and Literacy Teachers and Instructors"
 
   * element[+]
     * target.code = #2353
@@ -5154,7 +5154,7 @@ Usage:        #definition
   * element[+]
     * target.code = #7111
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
-    * target.display = "House builders			
+    * target.display = "House builders"	
     * code = #11-9021  	
     * display = "Construction Managers"
 
@@ -6153,7 +6153,9 @@ Usage:        #definition
     * display = "Telecommunications Line Installers and Repairers"
 
   * element[+]
-    * target.code = #7422 	Information and communications technology installers and servicers"
+    * target.code = #7422 	
+    * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes	
+    * target.display = "Information and communications technology installers and servicers"
     * code = #49-2097  	
     * display = "Electronic Home Entertainment Equipment Installers and Repairers"
 
