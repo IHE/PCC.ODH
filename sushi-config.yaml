@@ -28,11 +28,11 @@ license:  CC-BY-4.0
 fhirVersion: 4.0.1
 copyrightYear: 2020+
 
-#dependencies:
-#    uscdcphinvads:
-#        uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
-#        id: us.cdc.phinvads
-#        version: 0.12.0
+dependencies:
+    uscdcphinvads:
+        uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
+        id: us.cdc.phinvads
+        version: 0.12.0
 
 resources:
 # list every example here with a name, description and that exampleBoolean is true; These are used to populate the artifacts page, and are needed to eliminate build warnings 
