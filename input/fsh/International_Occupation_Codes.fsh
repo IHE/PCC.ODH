@@ -456,7 +456,7 @@ Id: ISCO08
     * #722	    "Blacksmiths, Toolmakers and Related Trades Workers"
       * #7221	    "Blacksmiths, Hammersmiths and Forging Press Workers"
       * #7222	    "Toolmakers and Related Workers"
-      * #7223	    "Metal Working Machine Tool Setters and  Operators"
+      * #7223	    "Metal Working Machine Tool Setters and Operators"
       * #7224	    "Metal Polishers, Wheel Grinders and Tool Sharpeners"
       * #723	    "Machinery Mechanics and Repairers"
       * #7231	    "Motor Vehicle Mechanics and Repairers"

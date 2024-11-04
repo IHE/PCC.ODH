@@ -52,7 +52,7 @@
             </coding>
             <coding>
                 <system value="https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08"/>
-                <code value="15322"/>
+                <code value="5322"/>
                 <display value="Home-based Personal Care Workers"/>
             </coding>
         </valueCodeableConcept>
