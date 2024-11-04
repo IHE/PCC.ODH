@@ -11,7 +11,7 @@ Usage:        #definition
 * date = "2024-10-23"
 * description = "ISCO08 to USA SOC 2010 Crosswalk"
 * group[+]
-  * source = Canonical(http://terminology.hl7.org/CodeSystem/soc)
+  * source = Canonical(https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.114222.4.5.327)
   * target = Canonical(InternationalClassificationOfOccupations2008)
   * element[+]
     * target.code = #0110   

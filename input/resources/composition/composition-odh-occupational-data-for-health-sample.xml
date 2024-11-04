@@ -2,6 +2,9 @@
 <Composition
     xmlns="http://hl7.org/fhir">
     <id value="composition-odh-occupational-data-for-health-sample"/>
+    <meta>
+        <profile value="https:​/​/profiles​.ihe​.net​/PCC​/ODH​/StructureDefinition​/odh-OccupationalDataForHealth"/>
+    </meta>
     <status value="final"/>
     <type>
         <coding>

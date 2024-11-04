@@ -81,7 +81,7 @@
         </code>
         <valueCodeableConcept>
             <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH"/>
+                <system value="https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.114222.4.5.327"/>
                 <code value="C-6"/>
                 <display value="Manager"/>
             </coding>
