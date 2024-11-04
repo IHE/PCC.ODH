@@ -7712,7 +7712,7 @@ Usage:        #definition
     * target.equivalence = http://hl7.org/fhir/concept-map-equivalence#subsumes
     * target.display = "Woodworking Machine Setters, Operators, and Tenders, Except Sawing" 
     * code = #7523 
-    * display = "Woodworking-machine tool setters and operators"
+    * display = "Woodworking Machine Tool Setters and Operators"
 
     
   * element[+]
