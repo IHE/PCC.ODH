@@ -12,7 +12,7 @@ Usage:        #definition
 * description = "SOC2010 to ISCO08 Crosswalk"
 * group[+]
   * source = Canonical(InternationalClassificationOfOccupations2008)
-  * target = Canonical(https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.114222.4.5.327)
+  * target = $PH_OccupationalDataForHealth_ODH
     
   * element[+]
     * target.code = #11-1011

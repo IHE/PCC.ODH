@@ -8,4 +8,5 @@ Alias: $ISCO08 = InternationalClassificationOfOccupations2008
 Alias: $ISICRev4 = InternationalStandardIndustrialClassificationCodesRev4
 Alias: $ONETSOC = https://phinvads.cdc.gov/vads/ViewValueSet.action?id=3ED71C35-8147-492B-B88F-94953573E55F 
 Alias: $SOC2010 = https://phinvads.cdc.gov/vads/ViewValueSet.action?id=044B66C7-33CF-46D5-B252-BBA8A8819EEF
-Alias: $PH_OccupationalDataForHealth_ODH = https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.114222.4.5.327
+Alias: $PH_OccupationalDataForHealth_ODH = http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH
+//Alias: $PH_OccupationalDataForHealth_ODH = https://phinvads.cdc.gov/baseStu3/CodeSystem/2.16.840.1.114222.4.5.327
