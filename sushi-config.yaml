@@ -29,9 +29,9 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 
 dependencies:
-    uscdcphinvads:
+    us.cdc.phinvads:
         uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
-        id: us.cdc.phinvads
+        id: uscdcphinvads
         version: 0.12.0
 
 resources:
