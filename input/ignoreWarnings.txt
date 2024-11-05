@@ -1,8 +1,5 @@
 == Suppressed Messages ==
 
-# Since the valueSet includes unavailable codeSystems, this valueSet can't be validated
-WARNING: Observation/observation-odh-usual-work-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, https://metadata.ilo.org/thesaurus.html was not found
-WARNING: Observation/observation-odh-past-or-present-job-sample: Observation.component[0].value.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://profiles.ihe.net/PCC/ODH/ValueSet/odf-industriesVS|1.0.0-comment' because the code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm, http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH was not found
 
 # We are aware that we are referencing Draft code systems 
 INFORMATION: Observation/observation-odh-employment-status-sample: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|3.1.0
@@ -12,5 +9,14 @@ INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation
 # TODO: did NOT use in an example 
 WARNING: StructureDefinition.where(url = 'https://profiles.ihe.net/PCC/ODH/StructureDefinition/odh-Employer-extension'): The Implementation Guide contains no examples for this extension
 
-# 
+# CDC does not publish their codeSystems fully properly. Current expectation is to use the THO system value. There are efforts to do this right.
+WARNING: ConceptMap/IHE-PCC-ODH-ISCO08-to-SOC2010-Concept-Mapping: ConceptMap.group[0].source: Source Code System http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH doesn't have all content (content = not-present), so the source codes cannot be checked
+WARNING: ConceptMap/IHE-PCC-ODH-SOC2010-to-ISCO08-Concept-Mapping: ConceptMap.group[0].target: Target Code System http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH doesn't have all content (content = not-present), so the target codes cannot be checked
+WARNING: Observation/observation-odh-past-or-present-job-sample: Observation.component[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH' could not be found, so the code cannot be validated
+
+# Understood that these are not real codesystems, but the best we have right now
+WARNING: ValueSet.where(id = 'odf-industriesVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm
+WARNING: ValueSet.where(id = 'odf-occupationVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://metadata.ilo.org/thesaurus.html
+
+
 
