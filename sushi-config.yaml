@@ -8,10 +8,10 @@ version: 1.0.0
 name: IHE_PCC_ODH
 title: "IHE FHIR Profile: Occupational Data for Health (ODH) - International"
 status: active
-releaseLabel: ci-build
+#releaseLabel: ci-build
 #releaseLabel: ballot
-#releaseLabel: Trial-Implementation
-#date: 2024-02-23
+releaseLabel: Trial-Implementation
+date: 2024-12-05
 publisher:
   ## Find your domain contact on the https://www.ihe.net/ihe_domains page
   - name: IHE Patient Care Coordination Committee

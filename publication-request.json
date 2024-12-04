@@ -1,14 +1,10 @@
 {
     "package-id" : "ihe.pcc.odh",
-    "version" : "1.0.0-comment",
-    "path" : "https://profiles.ihe.net/PCC/ODH/1.0.0-comment",
+    "version" : "1.0.0",
+    "path" : "https://profiles.ihe.net/PCC/ODH/1.0.0",
     "mode" : "milestone",
-    "status" : "ballot",
+    "status" : "trial-use",
     "sequence" : "Publication",
-    "desc" : "Public-Comment",
-    "first" : true,
-    "title" : "IHE FHIR Profile: Occupational Data for Health (ODH) - International",
-    "ci-build" : "https://build.fhir.org/ig/IHE/PCC.ODH/branches/master/index.html",
-    "category" : "Clinical Records",
-    "introduction" : "This IG covers the specific data that covers past or present jobs, usual work, employment status, retirement date and combat zone period for the subject. It also includes the past or present jobs and usual work of other household members. This IG is International scope."
+    "desc" : "Trial Implementation - resolved public-comment",
+    "first" : false
   }
