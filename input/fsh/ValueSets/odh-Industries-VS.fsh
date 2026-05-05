@@ -5,4 +5,4 @@ This value set identifies industries relevant to occupational data for health, u
 """
 Id: ODH.Industries.VS
 * ^experimental = false
-* include codes from system $ISICRev4
+* include codes from system https://profiles.ihe.net/PCC/ODH/CodeSystem/ISICRev4|1.0.1-current

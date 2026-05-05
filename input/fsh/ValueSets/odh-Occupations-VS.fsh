@@ -5,4 +5,4 @@ This value set identifies occupations relevant to occupational data for health, 
 """
 Id: ODH.Occupations.VS
 * ^experimental = false
-* include codes from system $ISCO08  
+* include codes from system https://profiles.ihe.net/PCC/ODH/CodeSystem/ISCO08|1.0.1-current  
