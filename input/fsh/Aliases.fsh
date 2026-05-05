@@ -4,7 +4,7 @@ Alias: $loinc = http://loinc.org
 Alias: $RxNorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $ICD10 = http://hl7.org/fhir/sid/icd-10
 Alias: $ICD10-CM = http://hl7.org/fhir/sid/icd-10-cm
-Alias: $ISCO08 = https://profiles.ihe.net/PCC/ODH/CodeSystem/InternationalClassificationOfOccupations2008not
+Alias: $ISCO08 = https://profiles.ihe.net/PCC/ODH/CodeSystem/InternationalClassificationOfOccupations2008
 Alias: $ISICRev4 = https://profiles.ihe.net/PCC/ODH/CodeSystem/InternationalStandardIndustrialClassificationCodesRev4
 Alias: $ONETSOC = https://phinvads.cdc.gov/vads/ViewValueSet.action?id=3ED71C35-8147-492B-B88F-94953573E55F 
 Alias: $SOC2010 = https://phinvads.cdc.gov/vads/ViewValueSet.action?id=044B66C7-33CF-46D5-B252-BBA8A8819EEF
