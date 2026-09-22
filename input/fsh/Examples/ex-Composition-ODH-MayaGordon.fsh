@@ -14,11 +14,11 @@ Usage: #example
 * section.title = "Occupational Data for Maya Gordon"
 * section.text.status = #generated
 * section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">ODH Complete Work Information for Maya Gordon\n</div>"
-* section.entry[odh-EmploymentStatus] = Reference(Observation/ex-Observation-ODH-EmploymentStatus) "Employment Status"
-* section.entry[odh-RetirementDate] = Reference(Observation/ex-Observation-ODH-RetirementDate) "Retirement Date"
-* section.entry[odh-CombatZonePeriod] = Reference(Observation/ex-Observation-ODH-CombatZonePeriod) "Combat Zone Period"
-* section.entry[odh-UsualWork] = Reference(Observation/ex-Observation-ODH-UsualWork) "Usual Work"
-* section.entry[odh-PastOrPresentJob] = Reference(Observation/ex-Observation-ODH-PastOrPresentJob) "Past or Present Job"
+* section.entry[odh-EmploymentStatus] = Reference("https://example.org/fhir/Observation/ex-Observation-ODH-EmploymentStatus") "Employment Status"
+* section.entry[odh-RetirementDate] = Reference("https://example.org/fhir/Observation/ex-Observation-ODH-RetirementDate") "Retirement Date"
+* section.entry[odh-CombatZonePeriod] = Reference("https://example.org/fhir/Observation/ex-Observation-ODH-CombatZonePeriod") "Combat Zone Period"
+* section.entry[odh-UsualWork] = Reference("https://example.org/fhir/Observation/ex-Observation-ODH-UsualWork") "Usual Work"
+* section.entry[odh-PastOrPresentJob] = Reference("https://example.org/fhir/Observation/ex-Observation-ODH-PastOrPresentJob") "Past or Present Job"
 
 
 Instance: ex-Observation-ODH-CombatZonePeriod
@@ -30,9 +30,9 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.CombatZonePeriod"
 * status = #final
 //* code = $loinc#87511-2 "Combat zone AndOr hazardous duty work dates"
-* subject = Reference(Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectiveDateTime = "2023-10-06T10:52:30-07:00"
-* performer = Reference(Practitioner/ex-Practitioner-ODH-Simone) "Simone Heps"
+* performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
 * valuePeriod.start = "2005-04-01"
 * valuePeriod.end = "2006-03-31"
 
@@ -46,9 +46,9 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.EmploymentStatus"
 * status = #final
 //* code = $loinc#74165-2 "History of employment status NIOSH"
-* subject = Reference(Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectivePeriod.start = "2018-06-01"
-* performer = Reference(Practitioner/ex-Practitioner-ODH-Simone) "Simone Heps"
+* performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
 * valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ObservationValue#Employed "Employed"
 
 
@@ -63,12 +63,12 @@ Usage: #example
 * extension[+].url = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.isCurrentJob.Extension"
 * extension[=].valueBoolean = true
 * extension[+].url = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.Employer.Extension"
-* extension[=].valueReference = Reference(Organization/ex-Organization-ODH-Employer) "Place Of Job"
+* extension[=].valueReference = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-Employer") "Place Of Job"
 * status = #final
 * code = $loinc#11341-5 "History of Occupation"
-* subject = Reference(Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectivePeriod.start = "2015-04-24"
-* performer = Reference(Practitioner/ex-Practitioner-ODH-Simone) "Simone Heps"
+* performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
 * valueCodeableConcept = $ISCO08#5322 "Home-based Personal Care Workers"
 * component[+].code = $loinc#86188-0 "History of Occupation Industry"
 * component[=].valueCodeableConcept.coding[+] = $ISICRev4#871 "Residential nursing care facilities"
@@ -98,9 +98,9 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.RetirementDate"
 * status = #final
 * code = $loinc#87510-4 "Date of Retirement"
-* subject = Reference(Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectiveDateTime = "2023-10-06T10:52:30-07:00"
-* performer = Reference(Practitioner/ex-Practitioner-ODH-Simone) "Simone Heps"
+* performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
 * valueDateTime = "2021-05-30"
 
 
@@ -114,9 +114,9 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.UsualWork"
 * status = #final
 //* code = $loinc#21843-8 "History of Usual occupation"
-* subject = Reference(Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectivePeriod.start = "2023-10-06T10:52:30-07:00"
-* performer = Reference(Practitioner/ex-Practitioner-ODH-Simone) "Simone Heps"
+* performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
 * valueCodeableConcept.coding[+] = $ISCO08#5322 "Home-based Personal Care Workers"
 * valueCodeableConcept.coding[+] = $ISCO08#2221 "Nursing Professionals"
 * component[odh-UsualIndustry].code = $loinc#21844-6 "History of Usual industry"
@@ -153,7 +153,7 @@ Usage: #inline
 * address[=].state = "GA"
 * address[=].postalCode = "30302"
 * address[=].country = "US"
-* generalPractitioner = Reference(Practitioner/ex-Practitioner-ODH-Simone)
+* generalPractitioner = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone")
 
 
 Instance: ex-Practitioner-ODH-Simone
@@ -183,7 +183,7 @@ Usage: #inline
 * qualification[+].identifier.value = "19983332213"
 * qualification[=].code.coding = http://terminology.hl7.org/CodeSystem/v2-0360#BA "Bachelor of Arts"
 * qualification[=].period.start = "1998-05-19"
-* qualification[=].issuer = Reference(Organization/ex-Organization-ODH-IHEPCC)
+* qualification[=].issuer = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-IHEPCC")
 
 
 Instance: ex-Organization-ODH-IHEPCC
@@ -275,8 +275,8 @@ Usage: #inline
 //* fullUrl = "http://example.org/fhir/ex-PractitionerRole-IPS-MartaVilla-Simone"
 * active = true
 * period.start = "1995-06-15"
-* practitioner = Reference(Practitioner/eex-Practitioner-ODH-Simone)
-* organization = Reference(Organization/ex-Organization-ODH-IHEPCC)
+* practitioner = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone")
+* organization = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-IHEPCC")
 * code[+].coding = $ISCO08#226 "Other Health Professionals"
 * code[+].coding = $ISCO08#3222 "Midwifery Associate Professionals"
 * code[+].coding = $ISCO08#3253 "Community Health Workers"
