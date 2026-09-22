@@ -28,19 +28,19 @@ Description: "A Date of Retirement Observation is a clinical statement about a s
 
 
 // The following elements are banned by the HL7 FHIR specification for this profile. Adding this concep in for allignement and consistancy until a CP is used to de-contrain them for international use. 
-* focus 0..0
-* bodySite 0..0
-* method 0..0
-* specimen 0..0
-* device 0..0
-* referenceRange 0..0
+//* focus 0..0
+//* bodySite 0..0
+//* method 0..0
+//* specimen 0..0
+//* device 0..0
+//* referenceRange 0..0
 
 // The Following Comments can be added when the elements are agreed to be de-contrained.
-//* focus ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
-//* interpretation ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
-//* bodySite ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
-//* method ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
-//* specimen ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
-//* device ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
-//* referenceRange ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* focus ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* interpretation ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* bodySite ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* method ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* specimen ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* device ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
+* referenceRange ^comment = "This is not a recommended element for Retirement Date, but it is included here in case there is a need to use it in an implementation."
 
