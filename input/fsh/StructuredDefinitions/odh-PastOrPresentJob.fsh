@@ -34,7 +34,7 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 // seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
 
 
-* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "code"
 * category ^slicing.rules = #open
 * category ^slicing.ordered = false

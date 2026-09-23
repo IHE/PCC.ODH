@@ -22,7 +22,7 @@ A Combat Zone Period Observation is a clinical statement indicating the self-rep
 * partOf ^definition = "The larger procedure that this particular observation is a component or step."
 // seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
 
-* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "code"
 * category ^slicing.rules = #open
 * category ^slicing.ordered = false
