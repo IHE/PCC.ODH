@@ -1,5 +1,5 @@
 Instance: ex-Composition-ODH-OccupationalDataForHealth
-InstanceOf: OccupationalDataForHealth
+InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.OccupationalDataForHealth
 Description: """
 This example illustrates the use of the ODH Occupational Data for Health Profile to capture a comprehensive occupational history for a patient, Maya Gordon. The composition includes sections for employment status, retirement date, combat zone period, usual work, and past or present job information. Each section references specific observations that provide detailed information about Maya's occupational history.
 """
@@ -22,7 +22,7 @@ Usage: #example
 
 
 Instance: ex-Observation-ODH-CombatZonePeriod
-InstanceOf: CombatZonePeriod
+InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.CombatZonePeriod
 Description: """
 This example illustrates the use of the ODH Combat Zone Period Profile to capture a patient's combat zone period information, including the date range of when the patient worked in a combat zone. The observation includes relevant details such as the effective date and the performer of the observation.
 """
@@ -30,6 +30,7 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.CombatZonePeriod"
 * status = #final
 //* code = $loinc#87511-2 "Combat zone AndOr hazardous duty work dates"
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectiveDateTime = "2023-10-06T10:52:30-07:00"
 * performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
@@ -38,7 +39,7 @@ Usage: #example
 
 
 Instance: ex-Observation-ODH-EmploymentStatus
-InstanceOf: EmploymentStatus
+InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.EmploymentStatus
 Description: """
 This example illustrates the use of the ODH Employment Status Profile to capture a patient's employment status information. The observation includes the patient's current employment status as "Employed," along with relevant details such as the effective date and the performer of the observation.
 """
@@ -46,6 +47,7 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.EmploymentStatus"
 * status = #final
 //* code = $loinc#74165-2 "History of employment status NIOSH"
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectivePeriod.start = "2018-06-01"
 * performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
@@ -53,7 +55,7 @@ Usage: #example
 
 
 Instance: ex-Observation-ODH-PastOrPresentJob
-InstanceOf: PastOrPresentJob
+InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.PastOrPresentJob
 Description: """
 This example illustrates the use of the ODH Past or Present Job Profile to capture a patient's past or present job information, including occupation, industry, supervisory level, and other relevant details.
 """
@@ -66,6 +68,7 @@ Usage: #example
 * extension[=].valueReference = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-Employer") "Place Of Job"
 * status = #final
 * code = $loinc#11341-5 "History of Occupation"
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectivePeriod.start = "2015-04-24"
 * performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
@@ -90,7 +93,7 @@ Usage: #example
 
 
 Instance: ex-Observation-ODH-RetirementDate
-InstanceOf: RetirementDate
+InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.RetirementDate
 Description: """
 This example illustrates the use of the ODH Retirement Date Profile to capture a patient's retirement date.
 """
@@ -98,6 +101,7 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.RetirementDate"
 * status = #final
 * code = $loinc#87510-4 "Date of Retirement"
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectiveDateTime = "2023-10-06T10:52:30-07:00"
 * performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"
@@ -105,7 +109,7 @@ Usage: #example
 
 
 Instance: ex-Observation-ODH-UsualWork
-InstanceOf: UsualWork
+InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.UsualWork
 Description: """
 This example illustrates the use of the ODH Usual Work Profile to capture a patient's usual occupation and industry, as well as the duration of time in that occupation. 
 The patient, Maya Gordon, has a history of working as a Home-based Personal Care Worker and Nursing Professional, primarily in the Residential nursing care facilities industry. The observation includes components for both occupation and industry, along with the duration of her usual occupation.
@@ -114,6 +118,7 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.UsualWork"
 * status = #final
 //* code = $loinc#21843-8 "History of Usual occupation"
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * effectivePeriod.start = "2023-10-06T10:52:30-07:00"
 * performer = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone") "Simone Heps"

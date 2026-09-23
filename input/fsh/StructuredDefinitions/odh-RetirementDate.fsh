@@ -19,7 +19,12 @@ Description: "A Date of Retirement Observation is a clinical statement about a s
 * partOf ^definition = "The larger procedure that this particular observation is a component or step."
 // seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
 
-* category = http://terminology.hl7.org/CodeSystem/observation-category#social-history 
+* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.path = "code"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = false
+* category contains social-history 1..1
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 
 * code = $loinc#87510-4 "Date of Retirement"
 

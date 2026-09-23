@@ -34,7 +34,12 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 // seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
 
 
-* category = #social-history
+* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.path = "code"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = false
+* category contains social-history 1..1
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 
 * code = $loinc#11341-5 "History of Occupation"
 
