@@ -99,13 +99,13 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 * component[odh-WorkClassification] ^definition = "Type of compensation and sector for a person's job, such as 'paid work, self-employed' or 'voluntary work', as reported by the person."
 * component[odh-WorkClassification].code = $loinc#85104-8 "Compensation and sector employment type"
 * component[odh-WorkClassification].value[x] only CodeableConcept
-* component[odh-WorkClassification].valueCodeableConcept from http://terminology.hl7.org/ValueSet/v3-WorkClassificationODH (required)
+* component[odh-WorkClassification].valueCodeableConcept from http://terminology.hl7.org/ValueSet/v3-WorkClassificationODH (preferred) 
 * component[odh-WorkClassification].interpretation ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
 * component[odh-WorkClassification].referenceRange ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
 
 * component[odh-SupervisoryLevel] ^short = "SupervisoryLevel: A coded indicator of responsibilities for directing work and personnel management responsibilities for a person's job, as reported by the person"
 * component[odh-SupervisoryLevel] ^definition = "A coded indicator of responsibilities for directing work and personnel management responsibilities for a person's job, as reported by the person. For US military jobs, this is pay grade."
-* component[odh-SupervisoryLevel].code = $loinc#85105-5 "Supervisory level"
+* component[odh-SupervisoryLevel].code = $loinc#87707-6 "Job supervisory level or pay grade"
 * component[odh-SupervisoryLevel].value[x] only CodeableConcept
 * component[odh-SupervisoryLevel].valueCodeableConcept from http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.7613 (example)
 * component[odh-SupervisoryLevel].interpretation ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
@@ -113,7 +113,7 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 
 * component[odh-JobDuty] ^short = "JobDuty: A regular action performed by a person at a job, as reported by the person"
 * component[odh-JobDuty] ^definition = "A regular action performed by a person at a job, as reported by the person. For example, a Job Duty could be 'carry construction supplies' for a job with the Occupation 'construction laborer.'"
-* component[odh-JobDuty].code = $loinc#85106-3 "Job duty"
+* component[odh-JobDuty].code = $loinc#63761-1 "What were your main activities or duties for this job"
 * component[odh-JobDuty].value[x] only string
 * component[odh-JobDuty].interpretation ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
 * component[odh-JobDuty].referenceRange ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
@@ -135,7 +135,7 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 
 * component[odh-WeeklyWorkDays] ^short = "WeeklyWorkDays: The average number of days per week that a person spends performing their duties for work"
 * component[odh-WeeklyWorkDays] ^definition = "The average number of days per week that a person spends performing their duties for work."
-* component[odh-WeeklyWorkDays].code = $loinc#74160-3 "Work days per week NIOSH"
+* component[odh-WeeklyWorkDays].code = $loinc#74160-3 "Work days per week"
 * component[odh-WeeklyWorkDays].value[x] only Quantity
 * component[odh-WeeklyWorkDays].valueQuantity.system = $ucum
 * component[odh-WeeklyWorkDays].valueQuantity.code = #d
@@ -144,7 +144,7 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 
 * component[odh-DailyWorkHours] ^short = "DailyWorkHours: The average number of hours in a day that a person spends performing their duties for work"
 * component[odh-DailyWorkHours] ^definition = "The average number of hours in a day that a person spends performing their duties for work."
-* component[odh-DailyWorkHours].code = $loinc#74161-1 "Work hours per day NIOSH"
+* component[odh-DailyWorkHours].code = $loinc#74161-1 "Work hours per week"
 * component[odh-DailyWorkHours].value[x] only Quantity
 * component[odh-DailyWorkHours].valueQuantity.system = $ucum
 * component[odh-DailyWorkHours].valueQuantity.code = #h

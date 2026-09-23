@@ -7,9 +7,9 @@ Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.OccupationalDataForHealth"
 * status = #final
 //* type = $loinc#74166-0 "Occupational summary note"
-* subject = Reference(Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
 * date = "2021-05-31T14:30:00+01:00"
-* author = Reference(Organization/ex-Organization-ODH-SouthHospital) "South Hospital"
+* author = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-SouthHospital") "South Hospital"
 * title = "Occupational Data Composition for Maya Gordon"
 * section.title = "Occupational Data for Maya Gordon"
 * section.text.status = #generated

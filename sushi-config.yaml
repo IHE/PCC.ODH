@@ -29,10 +29,10 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 
 dependencies:
-  us.cdc.phinvads:
-    uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
-    id: uscdcphinvads
-    version: 0.12.0
+#  us.cdc.phinvads:
+#    uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
+#    id: uscdcphinvads
+#    version: 0.12.0
   ihe.iti.pdqm: 
     id: ihepdqm
     uri: https://profiles.ihe.net/ITI/PDQm/ImplementationGuide/ihe.iti.pdqm
