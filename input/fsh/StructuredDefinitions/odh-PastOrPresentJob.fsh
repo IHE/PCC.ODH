@@ -107,13 +107,13 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 * component[odh-SupervisoryLevel] ^definition = "A coded indicator of responsibilities for directing work and personnel management responsibilities for a person's job, as reported by the person. For US military jobs, this is pay grade."
 * component[odh-SupervisoryLevel].code = $loinc#87707-6 "Job supervisory level or pay grade"
 * component[odh-SupervisoryLevel].value[x] only CodeableConcept
-* component[odh-SupervisoryLevel].valueCodeableConcept from http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.7613 (example)
+* component[odh-SupervisoryLevel].valueCodeableConcept from SupervisoryLevelVS (extensible)
 * component[odh-SupervisoryLevel].interpretation ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
 * component[odh-SupervisoryLevel].referenceRange ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
 
 * component[odh-JobDuty] ^short = "JobDuty: A regular action performed by a person at a job, as reported by the person"
 * component[odh-JobDuty] ^definition = "A regular action performed by a person at a job, as reported by the person. For example, a Job Duty could be 'carry construction supplies' for a job with the Occupation 'construction laborer.'"
-* component[odh-JobDuty].code = $loinc#63761-1 "What were your main activities or duties for this job"
+* component[odh-JobDuty].code = $loinc#63761-1 "What were your main activities or duties for this job [NHANES]"
 * component[odh-JobDuty].value[x] only string
 * component[odh-JobDuty].interpretation ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."
 * component[odh-JobDuty].referenceRange ^comment = "This is not a recommended element for Past or Present Job, but it is included here in case there is a need to use it in an implementation."

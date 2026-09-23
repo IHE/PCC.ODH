@@ -25,6 +25,7 @@ This Composition covers information about a patient's work, including some volun
 * section.entry ^comment = "There SHALL be at least 1 entry of either Usual work or Past or Present Job."
 * section.entry ^slicing.discriminator.type = #profile
 * section.entry ^slicing.discriminator.path = "reference.resolve()"
+* section.entry ^slicing.discriminator.path = "code"
 * section.entry ^slicing.rules = #open
 * section.entry ^slicing.ordered = false
 * section.entry contains

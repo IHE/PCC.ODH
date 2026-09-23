@@ -76,7 +76,7 @@ Usage: #example
 * component[odh-WorkClassification].code = $loinc#85104-8 "Compensation and sector employment type"
 * component[odh-WorkClassification].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-WorkClassificationODH#PWNSE "Paid non-governmental work, not self-employed"
 * component[odh-SupervisoryLevel].code = $loinc#87707-6 "Job supervisory level or pay grade"
-* component[odh-SupervisoryLevel].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH#C-6 "Manager"
+* component[odh-SupervisoryLevel].valueCodeableConcept = $sct#159326004 "Managerial Occupation"
 //* component[odh-JobDuty].code = $loinc#63761-1 "What were your main activities or duties for this job [NHANES]"
 * component[odh-JobDuty].valueString = "Patient Care"
 * component[odh-OccupationalHazard].code = $loinc#87729-0 "History of Occupational hazard"
