@@ -20,7 +20,7 @@ Description: "A Date of Retirement Observation is a clinical statement about a s
 // seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
 
 * category ^slicing.discriminator.type = #pattern
-* category ^slicing.discriminator.path = "code"
+* category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open
 * category ^slicing.ordered = false
 * category contains social-history 1..1

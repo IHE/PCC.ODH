@@ -14,11 +14,11 @@ Usage: #example
 * section.title = "Occupational Data for Maya Gordon"
 * section.text.status = #generated
 * section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">ODH Complete Work Information for Maya Gordon\n</div>"
-* section.entry[odh-EmploymentStatus] = Reference(EmploymentStatus/ex-Observation-ODH-EmploymentStatus) "Employment Status"
-* section.entry[odh-RetirementDate] = Reference(RetirementDate/ex-Observation-ODH-RetirementDate) "Retirement Date"
-* section.entry[odh-CombatZonePeriod] = Reference(CombatZonePeriod/ex-Observation-ODH-CombatZonePeriod) "Combat Zone Period"
-* section.entry[odh-UsualWork] = Reference(UsualWork/ex-Observation-ODH-UsualWork) "Usual Work"
-* section.entry[odh-PastOrPresentJob] = Reference(PastOrPresentJob/ex-Observation-ODH-PastOrPresentJob) "Past or Present Job"
+* section.entry[odh-EmploymentStatus] = Reference(Observation/ex-Observation-ODH-EmploymentStatus) "Employment Status"
+* section.entry[odh-RetirementDate] = Reference(Observation/ex-Observation-ODH-RetirementDate) "Retirement Date"
+* section.entry[odh-CombatZonePeriod] = Reference(Observation/ex-Observation-ODH-CombatZonePeriod) "Combat Zone Period"
+* section.entry[odh-UsualWork] = Reference(Observation/ex-Observation-ODH-UsualWork) "Usual Work"
+* section.entry[odh-PastOrPresentJob] = Reference(Observation/ex-Observation-ODH-PastOrPresentJob) "Past or Present Job"
 
 
 Instance: ex-Observation-ODH-CombatZonePeriod
