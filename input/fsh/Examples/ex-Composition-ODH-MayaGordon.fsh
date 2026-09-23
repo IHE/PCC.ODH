@@ -14,11 +14,11 @@ Usage: #example
 * section.title = "Occupational Data for Maya Gordon"
 * section.text.status = #generated
 * section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">ODH Complete Work Information for Maya Gordon\n</div>"
-* section.entry[odh-EmploymentStatus] = Reference(Observation/ex-Observation-ODH-EmploymentStatus) "Employment Status"
-* section.entry[odh-RetirementDate] = Reference(Observation/ex-Observation-ODH-RetirementDate) "Retirement Date"
-* section.entry[odh-CombatZonePeriod] = Reference(Observation/ex-Observation-ODH-CombatZonePeriod) "Combat Zone Period"
-* section.entry[odh-UsualWork] = Reference(Observation/ex-Observation-ODH-UsualWork) "Usual Work"
-* section.entry[odh-PastOrPresentJob] = Reference(Observation/ex-Observation-ODH-PastOrPresentJob) "Past or Present Job"
+* section.entry[odh-EmploymentStatus] = Reference(https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.EmploymentStatus/ex-Observation-ODH-EmploymentStatus) "Employment Status"
+* section.entry[odh-RetirementDate] = Reference(https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.RetirementDate/ex-Observation-ODH-RetirementDate) "Retirement Date"
+* section.entry[odh-CombatZonePeriod] = Reference(https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.CombatZonePeriod/ex-Observation-ODH-CombatZonePeriod) "Combat Zone Period"
+* section.entry[odh-UsualWork] = Reference(https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.UsualWork/ex-Observation-ODH-UsualWork) "Usual Work"
+* section.entry[odh-PastOrPresentJob] = Reference(https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.PastOrPresentJob/ex-Observation-ODH-PastOrPresentJob) "Past or Present Job"
 
 
 Instance: ex-Observation-ODH-CombatZonePeriod

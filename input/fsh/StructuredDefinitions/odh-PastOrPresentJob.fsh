@@ -35,7 +35,7 @@ Knowledge about a person's job(s) informs diagnosis and management of illness an
 
 
 * category ^slicing.discriminator.type = #pattern
-* category ^slicing.discriminator.path = "code"
+* category ^slicing.discriminator.path = "value"
 * category ^slicing.rules = #open
 * category ^slicing.ordered = false
 * category contains social-history 1..1
