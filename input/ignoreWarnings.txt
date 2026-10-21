@@ -1,26 +1,13 @@
 == Suppressed Messages ==
-
-
-# This depricated Extnsion is puled over from a recent updae but is not deffined by resources in this profile. 
-INFORMATION: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
-
-
-# We are aware that we are referencing Draft code systems 
-INFORMATION: Observation/observation-odh-employment-status-sample: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|3.1.0
-INFORMATION: Observation/observation-odh-past-or-present-job-sample: Observation.component[5].value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|3.1.0
-
-
-# TODO: did NOT use in an example 
-WARNING: StructureDefinition.where(url = 'https://profiles.ihe.net/PCC/ODH/StructureDefinition/odh-Employer-extension'): The Implementation Guide contains no examples for this extension
+# This is an R4 IG, this deprication is not applicable
+INFORMATION: StructureDefinition/IHE.ODH.CombatZonePeriod: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 
 # CDC does not publish their codeSystems fully properly. Current expectation is to use the THO system value. There are efforts to do this right.
-WARNING: ConceptMap/IHE-PCC-ODH-ISCO08-to-SOC2010-Concept-Mapping: ConceptMap.group[0].source: Source Code System http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH doesn't have all content (content = not-present), so the source codes cannot be checked
-WARNING: ConceptMap/IHE-PCC-ODH-SOC2010-to-ISCO08-Concept-Mapping: ConceptMap.group[0].target: Target Code System http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH doesn't have all content (content = not-present), so the target codes cannot be checked
-WARNING: Observation/observation-odh-past-or-present-job-sample: Observation.component[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH' could not be found, so the code cannot be validated
+WARNING: ConceptMap/IHE-PCC-ODH-ISCO08-to-SOC2010-Concept-Mapping: ConceptMap.group[0].target: Target Code System http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH doesn't have all content (content = not-present), so the target codes cannot be checked
+WARNING: ConceptMap/IHE-PCC-ODH-SOC2010-to-ISCO08-Concept-Mapping: ConceptMap.group[0].source: Source Code System http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH doesn't have all content (content = not-present), so the source codes cannot be checked
 
-# Understood that these are not real codesystems, but the best we have right now
-WARNING: ValueSet.where(id = 'odf-industriesVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.ilo.org/global/industries-and-sectors/health-services/lang--en/index.htm
-WARNING: ValueSet.where(id = 'odf-occupationVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://metadata.ilo.org/thesaurus.html
-
-# This is an R4 IG, this deprication is not applicable
-INFORMATION: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+# These are Warnings on the ihe.fhir.template#current template, when that template is updated These will be resolved. 
+%The html source is not well formed: Found "</a>" expecting "</span>"%
+%The html source has duplicate element ids: project-nav. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
+%The html source is not well formed: Found "</div>" expecting "</body>"%
+%The html source is not well formed: Found "</a>" expecting "</img>"%

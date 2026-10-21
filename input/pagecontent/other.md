@@ -2,7 +2,7 @@
 This section modifies other IHE profiles or the General Introduction appendices and is not a part of the ODH Profile. The content here will be incorporated into the target narrative at a future time, usually when ODH Profile goes normative.
 </div>
 
-## IHE Technical Frameworks General Introduction Appendix A: Actors
+### IHE Technical Frameworks General Introduction Appendix A: Actors
 
 |------------------------------------------------|
 | Editor, add the following new or modified actors to the [IHE Technical Frameworks General Introduction Appendix A](https://profiles.ihe.net/GeneralIntro/ch-A.html): |
@@ -15,7 +15,7 @@ This section modifies other IHE profiles or the General Introduction appendices 
 
 
 
-## IHE Technical Frameworks General Introduction Appendix B: Transactions
+### IHE Technical Frameworks General Introduction Appendix B: Transactions
 
 |------------------------------------------------|
 | Editor, add the following new or modified transactions to the [IHE Technical Frameworks General Introduction Appendix B](https://profiles.ihe.net/GeneralIntro/ch-B.html): |
@@ -27,7 +27,7 @@ This section modifies other IHE profiles or the General Introduction appendices 
 | none |  |
 {:.grid .table-striped}
 
-## IHE Technical Frameworks General Introduction Appendix D: Glossary
+### IHE Technical Frameworks General Introduction Appendix D: Glossary
 
 |------------------------------------------------|
 | Editor, add the following new or modified terms to the [IHE Technical Frameworks General Introduction Appendix D](https://profiles.ihe.net/GeneralIntro/ch-D.html): |
