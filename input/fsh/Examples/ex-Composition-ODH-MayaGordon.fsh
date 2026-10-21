@@ -65,8 +65,7 @@ Usage: #example
 * extension[+].url = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.isCurrentJob.Extension"
 * extension[=].valueBoolean = true
 * extension[+].url = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.Employer.Extension"
-* extension[=].valueReference = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-Employer") "Place Of Job"
-* status = #final
+* extension[=].valueReference = Reference("https://example.org/fhir/Organization/ex-Organization-ODH-Employer") "Place of Job"
 * code = $loinc#11341-5 "History of Occupation"
 * category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * subject = Reference("https://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon") "Maya Gordon"
@@ -75,7 +74,7 @@ Usage: #example
 * valueCodeableConcept = $ISCO08#5322 "Home-based Personal Care Workers"
 //* component[odh-PastOrPresentIndustry].code = $loinc#86188-0 "History of Occupation Industry"
 * component[odh-PastOrPresentIndustry].valueCodeableConcept.coding[+] = $ISICRev4#871 "Residential nursing care facilities"
-* component[odh-PastOrPresentIndustry].valueCodeableConcept.coding[+] = $ISCO08#5322 "Home-based Personal Care Workers"
+* component[odh-PastOrPresentIndustry].valueCodeableConcept.coding[+] = $ISICRev4#87 "Residential care activities"
 * component[odh-WorkClassification].code = $loinc#85104-8 "Compensation and sector employment type"
 * component[odh-WorkClassification].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-WorkClassificationODH#PWNSE "Paid non-governmental work, not self-employed"
 * component[odh-SupervisoryLevel].code = $loinc#87707-6 "Job supervisory level or pay grade"
@@ -111,8 +110,8 @@ Usage: #example
 Instance: ex-Observation-ODH-UsualWork
 InstanceOf: https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.UsualWork
 Description: """
-This example illustrates the use of the ODH Usual Work Profile to capture a patient's usual occupation and industry, as well as the duration of time in that occupation. 
-The patient, Maya Gordon, has a history of working as a Home-based Personal Care Worker and Nursing Professional, primarily in the Residential nursing care facilities industry. The observation includes components for both occupation and industry, along with the duration of her usual occupation.
+This example illustrates the use of the ODH Usual Work Profile to capture a patient's usual occupation and industry, as well as the duration of time in that occupation.
+The patient, Maya Gordon, has a history of working as a Home-based Personal Care Worker and Nursing Professional, primarily in the residential nursing care facilities industry. The observation includes components for both occupation and industry, along with the duration of her usual occupation.
 """
 Usage: #example
 * meta.profile = "https://profiles.ihe.net/PCC/ODH/StructureDefinition/IHE.ODH.UsualWork"
@@ -126,7 +125,7 @@ Usage: #example
 * valueCodeableConcept.coding[+] = $ISCO08#2221 "Nursing Professionals"
 * component[odh-UsualIndustry].code = $loinc#21844-6 "History of Usual industry"
 * component[odh-UsualIndustry].valueCodeableConcept.coding[+] = $ISICRev4#871 "Residential nursing care facilities"
-* component[odh-UsualIndustry].valueCodeableConcept.coding[+] = $ISCO08#5322 "Home-based Personal Care Workers"
+* component[odh-UsualIndustry].valueCodeableConcept.coding[+] = $ISICRev4#87 "Residential care activities"
 * component[odh-UsualOccupationDuration].code = $loinc#74163-7 "Usual occupation duration"
 * component[odh-UsualOccupationDuration].valueQuantity = 21 'a' "a"
 
@@ -145,7 +144,7 @@ Usage: #inline
 * name[=].given[+] = "Maya"
 * name[=].given[+] = "L"
 * telecom[+].system = #phone
-* telecom[=].value = "1-(404)555-1212"
+* telecom[=].value = "+1 404-555-1212"
 * telecom[=].use = #home
 * telecom[+].system = #email
 * telecom[=].value = "maya.gordon@example.com"
@@ -195,13 +194,13 @@ Instance: ex-Organization-ODH-IHEPCC
 InstanceOf: Organization
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
-//* fullUrl = "http://example.org/fhir/ex-Organization-IPS-MartaVilla-IHEPCC"
+//* fullUrl = "http://example.org/fhir/ex-Organization-ODH-IHEPCC"
 * identifier[+].use = #usual
 * identifier[=].system = "urn:oid:1.3.6.1.4.1.21367.2011.2.5.5639"
 * identifier[=].value = "IHEPCC-20260331"
 * identifier[=].period.start = "2026-04-01"
 * identifier[=].assigner.display = "IHE International"
-* active = true 
+* active = true
 * type = http://terminology.hl7.org/CodeSystem/organization-type#edu "Educational Institute"
 * name = "IHE International PCC"
 * alias = "IHE PCC"
@@ -220,36 +219,36 @@ Usage: #inline
 * address[=].district = "DuPage"
 * address[=].state = "IL"
 * address[=].postalCode = "60523"
-* address[=].country = "USA"
+* address[=].country = "US"
 
 
 Instance: ex-Organization-ODH-Employer
 InstanceOf: Organization
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
-//* fullUrl = "http://example.org/fhir/ex-Organization-IPS-MartaVilla-Employer"
+//* fullUrl = "http://example.org/fhir/ex-Organization-ODH-Employer"
 * identifier[+].use = #usual
 * identifier[=].system = "urn:oid:1.3.6.1.4.1.21367.2011.2.5.5639"
 * identifier[=].value = "IHEJOB-20260331"
 * identifier[=].period.start = "2026-04-01"
 * identifier[=].assigner.display = "IHE International"
-* active = true 
+* active = true
 * type = http://terminology.hl7.org/CodeSystem/organization-type#prov "Healthcare Provider"
-* name = "Place Of Job"
+* name = "Place of Job"
 * alias = "Job Org"
 * telecom[+].system = #phone
 * telecom[=].use = #usual
-* telecom[=].value = "(+1) 630-571-2670"
+* telecom[=].value = "+1 630-571-2670"
 * address[+].use = #official
 * address[=].type = #physical
 * address[=].text = "820 Jorie Blvd, Suite 200, Oak Brook, IL 60523 USA"
-* address[=].line[+] = "820 Jorie Blvd" 
+* address[=].line[+] = "820 Jorie Blvd"
 * address[=].line[=] = "Suite 200"
 * address[=].city = "Oak Brook"
 * address[=].district = "DuPage"
 * address[=].state = "IL"
 * address[=].postalCode = "60523"
-* address[=].country = "USA"
+* address[=].country = "US"
 
 
 Instance: ex-Organization-ODH-SouthHospital
@@ -276,8 +275,8 @@ Usage: #inline
 Instance: ex-PractitionerRole-ODH-Simone
 InstanceOf: PractitionerRole
 Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips"
-//* fullUrl = "http://example.org/fhir/ex-PractitionerRole-IPS-MartaVilla-Simone"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/PractitionerRole-uv-ips"
+//* fullUrl = "http://example.org/fhir/ex-PractitionerRole-ODH-Simone"
 * active = true
 * period.start = "1995-06-15"
 * practitioner = Reference("https://example.org/fhir/Practitioner/ex-Practitioner-ODH-Simone")
