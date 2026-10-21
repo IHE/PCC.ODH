@@ -1,7 +1,7 @@
 {
     "package-id" : "ihe.pcc.odh",
-    "version" : "1.0.0",
-    "path" : "https://profiles.ihe.net/PCC/ODH/1.0.0",
+    "version" : "1.0.1",
+    "path" : "https://profiles.ihe.net/PCC/ODH/1.0.1",
     "mode" : "milestone",
     "status" : "trial-use",
     "sequence" : "Publication",
