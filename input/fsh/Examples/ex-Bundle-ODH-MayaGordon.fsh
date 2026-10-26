@@ -276,7 +276,7 @@ Instance: ex-Patient-ODH-MayaGordon
 InstanceOf: Patient
 Title: "Example Patient Maya Gordon"
 Description: "Maya Gordon, the patient whose occupational data are recorded in the ODH examples."
-Usage: #example
+Usage: #inline
 * identifier.use = #usual
 * identifier.type = $v2-0203#MR "Medical record number"
 * identifier.system = "http://example.org/fhir/sid/south-hospital-mrn"
@@ -308,7 +308,7 @@ Instance: ex-RelatedPerson-ODH-MayaGordon-Spouse
 InstanceOf: RelatedPerson
 Title: "Example RelatedPerson David Gordon"
 Description: "David Gordon, Maya Gordon's spouse, who shares her home. Used as the focus of a household member Past or Present Job."
-Usage: #example
+Usage: #inline
 * active = true
 * patient = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
 * relationship = $v3-RoleCode#HUSB "husband"
@@ -328,7 +328,7 @@ Instance: ex-Practitioner-ODH-SimoneHeps
 InstanceOf: Practitioner
 Title: "Example Practitioner Simone Heps"
 Description: "Simone Heps, MD, the general practitioner who recorded Maya Gordon's occupational data."
-Usage: #example
+Usage: #inline
 * identifier.use = #official
 * identifier.system = "http://example.org/fhir/sid/south-hospital-practitioner"
 * identifier.value = "874635264"
@@ -359,7 +359,7 @@ Instance: ex-PractitionerRole-ODH-SimoneHeps
 InstanceOf: PractitionerRole
 Title: "Example PractitionerRole Simone Heps at South Hospital"
 Description: "Simone Heps, MD, as a general practitioner at South Hospital."
-Usage: #example
+Usage: #inline
 * active = true
 * period.start = "2005-06-15"
 * practitioner = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
@@ -374,7 +374,7 @@ Instance: ex-Organization-ODH-SouthHospital
 InstanceOf: Organization
 Title: "Example Organization South Hospital"
 Description: "South Hospital, the custodian of the ODH document and Simone Heps' organization."
-Usage: #example
+Usage: #inline
 * active = true
 * type = $organization-type#prov "Healthcare Provider"
 * name = "South Hospital"
@@ -393,7 +393,7 @@ Instance: ex-Organization-ODH-PeachtreeHomeCare
 InstanceOf: Organization
 Title: "Example Organization Peachtree Home Care Services"
 Description: "Peachtree Home Care Services, an employer in the ODH examples."
-Usage: #example
+Usage: #inline
 * active = true
 * type = $organization-type#prov "Healthcare Provider"
 * name = "Peachtree Home Care Services"
@@ -412,7 +412,7 @@ Instance: ex-Organization-ODH-USArmy
 InstanceOf: Organization
 Title: "Example Organization United States Army, Fort Stewart"
 Description: "United States Army, Fort Stewart, an employer in the ODH examples."
-Usage: #example
+Usage: #inline
 * active = true
 * type = $organization-type#govt "Government"
 * name = "United States Army, Fort Stewart"
@@ -431,7 +431,7 @@ Instance: ex-Organization-ODH-SouthernBuilders
 InstanceOf: Organization
 Title: "Example Organization Southern Building Contractors"
 Description: "Southern Building Contractors, an employer in the ODH examples."
-Usage: #example
+Usage: #inline
 * active = true
 * type = $organization-type#bus "Non-Healthcare Business or Corporation"
 * name = "Southern Building Contractors"

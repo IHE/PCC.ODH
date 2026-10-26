@@ -89,14 +89,6 @@ groups:
       - Observation/ex-Observation-ODH-MayaGordon-Job-ArmyMedicNCO
       - Observation/ex-Observation-ODH-MayaGordon-Job-ArmyMedic
       - Observation/ex-Observation-ODH-MayaGordon-Job-Spouse-ConstructionLaborer
-      - Patient/ex-Patient-ODH-MayaGordon
-      - RelatedPerson/ex-RelatedPerson-ODH-MayaGordon-Spouse
-      - Practitioner/ex-Practitioner-ODH-SimoneHeps
-      - PractitionerRole/ex-PractitionerRole-ODH-SimoneHeps
-      - Organization/ex-Organization-ODH-SouthHospital
-      - Organization/ex-Organization-ODH-PeachtreeHomeCare
-      - Organization/ex-Organization-ODH-USArmy
-      - Organization/ex-Organization-ODH-SouthernBuilders
 
 pages:
 # The order here is the order of the TOC and the next/prev navigation.
