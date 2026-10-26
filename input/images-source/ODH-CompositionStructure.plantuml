@@ -1,0 +1,31 @@
+@startuml
+skinparam svgDimensionStyle false
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam rectangleBorderColor #333333
+skinparam arrowColor #333333
+top to bottom direction
+
+rectangle "Occupational Data for Health\n(Composition)" as comp #EEF4FA {
+  rectangle "Occupational Data section\nsection 1..1, entry 1..*" as sec #FFFFFF
+}
+
+rectangle "Employment Status\n0..*" as es #EEF4FA
+rectangle "Retirement Date\n0..*" as rd #EEF4FA
+rectangle "Combat Zone Period\n0..*" as czp #EEF4FA
+
+rectangle "Usual Work\n0..1" as uw #EEF4FA {
+  rectangle "Components\nUsual Industry 1..1\nUsual Occupation Duration 0..1" as uwc #FFFFFF
+}
+
+rectangle "Past or Present Job\n0..*" as ppj #EEF4FA {
+  rectangle "Components\nIndustry 0..1\nWork Classification 0..1\nSupervisory Level 0..1\nJob Duty 0..*\nOccupational Hazard 0..*\nWork Schedule 0..1\nWeekly Work Days 0..1\nDaily Work Hours 0..1" as ppjc #FFFFFF
+  rectangle "Extensions\nEmployer 0..1\nIs Current Job 0..1" as ppje #FFFFFF
+}
+
+sec --> es : entry
+sec --> rd : entry
+sec --> czp : entry
+sec --> uw : entry
+sec --> ppj : entry
+@enduml
