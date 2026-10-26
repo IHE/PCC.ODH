@@ -11,3 +11,11 @@ Alias: $SOC2010 = https://phinvads.cdc.gov/vads/ViewValueSet.action?id=044B66C7-
 Alias: $PH_OccupationalDataForHealth_ODH = http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH
 //Alias: $PH_OccupationalDataForHealth_ODH = https://phinvads.cdc.gov/baseStu3/CodeSystem/2.16.840.1.114222.4.5.327
 //Alias: $PH_OccupationalDataForHealth_ODH = https://phinvads.cdc.gov/CodeSystem/2.16.840.1.114222.4.5.327
+
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $v3-ObservationValue = http://terminology.hl7.org/CodeSystem/v3-ObservationValue
+Alias: $v3-WorkClassificationODH = http://terminology.hl7.org/CodeSystem/v3-WorkClassificationODH
+Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
+Alias: $organization-type = http://terminology.hl7.org/CodeSystem/organization-type

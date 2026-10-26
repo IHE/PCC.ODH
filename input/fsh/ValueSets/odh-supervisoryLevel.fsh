@@ -3,7 +3,6 @@ Id: ODH.SupervisoryLevel.VS
 Title: "ODH Supervisory Level"
 Description: """
 An indicator of responsibilities of a person's job for directing work and personnel management.
-
 """
 
 * ^experimental = false

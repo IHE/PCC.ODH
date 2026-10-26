@@ -3,7 +3,7 @@ Parent: Observation
 Id: IHE.ODH.EmploymentStatus
 Title: "Employment Status"
 Description: """
-A History of Employment Status Observation is a clinical statement about a person's relationship to working for pay, family earnings, or training (e.g. having one or more jobs, searching for work, etc.). A person's ODH Employment Status is independent of Job characteristics, e.g., not “full-time work,” “part-time work,” \"self-employed,\" because many people have more than one job.
+A History of Employment Status Observation is a clinical statement about a person's relationship to working for pay, family earnings, or training (e.g. having one or more jobs, searching for work, etc.). A person's ODH Employment Status is independent of Job characteristics, e.g., not "full-time work," "part-time work," or "self-employed," because many people have more than one job.
 """
 //* ^version = "1.0.0"
 * . ^short = "Employment Status"
@@ -14,12 +14,12 @@ A History of Employment Status Observation is a clinical statement about a perso
 * basedOn only Reference(ServiceRequest)
 * basedOn ^short = "The plan, proposal or order that is fulfilled in whole or in part by this observation"
 * basedOn ^definition = "The plan, proposal or order that is fulfilled in whole or in part by this observation."
-// seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
+// May be overly constrained for international use; kept for alignment with HL7 US ODH. See Open issue ODH_004 (issues.html#ODH_004).
 
 * partOf only Reference(Procedure)
 * partOf ^short = "The larger procedure that this particular observation is a component or step"
 * partOf ^definition = "The larger procedure that this particular observation is a component or step."
-// seems to be overly constrained but will keep in for now until the issue is discussed and resolved. 
+// May be overly constrained for international use; kept for alignment with HL7 US ODH. See Open issue ODH_004 (issues.html#ODH_004).
 
 * category ^slicing.discriminator.type = #value
 * category ^slicing.discriminator.path = "$this"
@@ -39,7 +39,7 @@ A History of Employment Status Observation is a clinical statement about a perso
 * valueCodeableConcept ^short = "A person's employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)"
 * valueCodeableConcept ^definition = "A person's employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)."
 
-// The following elements are banned by the HL7 FHIR specification for this profile. Adding this concep in for allignement and consistancy until a CP is used to de-contrain them for international use. 
+// The following elements are prohibited (0..0) by the HL7 US ODH profile. They are left open here and marked as not recommended until a change proposal de-constrains them for international use. See Open issue ODH_004 (issues.html#ODH_004).
 //* focus 0..0
 //* bodySite 0..0
 //* method 0..0
@@ -47,7 +47,7 @@ A History of Employment Status Observation is a clinical statement about a perso
 //* device 0..0
 //* referenceRange 0..0
 
-// The Following Comments can be added when the elements are agreed to be de-contrained.
+// Guidance for the elements that are open but not recommended.
 * focus ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
 * bodySite ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
 * method ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."

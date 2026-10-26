@@ -1,5 +1,5 @@
 <div markdown="1" class="stu-note">
-This section modifies other IHE profiles or the General Introduction appendices and is not a part of the ODH Profile. The content here will be incorporated into the target narrative at a future time, usually when ODH Profile goes normative.
+This section modifies other IHE profiles or the General Introduction appendices and is not a part of the ODH Profile. The content here will be incorporated into the target narrative at a future time, usually when the ODH Profile goes normative.
 </div>
 
 ### IHE Technical Frameworks General Introduction Appendix A: Actors
