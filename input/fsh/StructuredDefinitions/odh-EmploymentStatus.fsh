@@ -1,0 +1,56 @@
+Profile: EmploymentStatus
+Parent: Observation
+Id: IHE.ODH.EmploymentStatus
+Title: "Employment Status"
+Description: """
+A History of Employment Status Observation is a clinical statement about a person's relationship to working for pay, family earnings, or training (e.g. having one or more jobs, searching for work, etc.). A person's ODH Employment Status is independent of Job characteristics, e.g., not "full-time work," "part-time work," or "self-employed," because many people have more than one job.
+"""
+//* ^version = "1.0.0"
+* . ^short = "Employment Status"
+* . ^definition = "The self-reported current and/or historical status about a person's economic relationship to work (e.g. having one or more jobs), including start and end dates. A person's Employment Status could change over time, for example, a person could be employed following a period of choosing to not be in the labor force. Outside of ODH, the employment arrangement between an employer and a person (one job) has sometimes been referred to as a person's 'employment status.' However, in ODH, Employment Status is used to characterize a person, Work Classification is used to characterize a job, and Retirement Date is used to characterize a person as retired."
+* . ^isModifier = false
+* . ^isSummary = false
+
+* basedOn only Reference(ServiceRequest)
+* basedOn ^short = "The plan, proposal or order that is fulfilled in whole or in part by this observation"
+* basedOn ^definition = "The plan, proposal or order that is fulfilled in whole or in part by this observation."
+// May be overly constrained for international use; kept for alignment with HL7 US ODH. See Open issue ODH_004 (issues.html#ODH_004).
+
+* partOf only Reference(Procedure)
+* partOf ^short = "The larger procedure that this particular observation is a component or step"
+* partOf ^definition = "The larger procedure that this particular observation is a component or step."
+// May be overly constrained for international use; kept for alignment with HL7 US ODH. See Open issue ODH_004 (issues.html#ODH_004).
+
+* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.path = "$this"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = false
+* category contains social-history 1..1
+* category[social-history] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
+
+* code = $loinc#74165-2 "History of employment status NIOSH"
+
+* effective[x] only Period
+* effectivePeriod ^short = "The time period the employment status addresses. If the employment is current, the ending time of the time period should be omitted."
+* effectivePeriod ^definition = "The time period the employment status addresses. If the employment is current, the ending time of the time period should be omitted."
+
+* value[x] only CodeableConcept
+* valueCodeableConcept from http://terminology.hl7.org/ValueSet/v3-employmentStatusODH (required)
+* valueCodeableConcept ^short = "A person's employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)"
+* valueCodeableConcept ^definition = "A person's employment status as defined by compensation and sector (e.g. paid vs. unpaid, self-employed vs. not self-employed, government vs. private, etc.)."
+
+// The following elements are prohibited (0..0) by the HL7 US ODH profile. They are left open here and marked as not recommended until a change proposal de-constrains them for international use. See Open issue ODH_004 (issues.html#ODH_004).
+//* focus 0..0
+//* bodySite 0..0
+//* method 0..0
+//* specimen 0..0
+//* device 0..0
+//* referenceRange 0..0
+
+// Guidance for the elements that are open but not recommended.
+* focus ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
+* bodySite ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
+* method ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
+* specimen ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
+* device ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."
+* referenceRange ^comment = "This is not a recommended element for Employment Status, but it is included here in case there is a need to use it in an implementation."

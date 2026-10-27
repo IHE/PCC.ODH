@@ -18,18 +18,18 @@ All the examples that are used in this Implementation Guide are available for do
 
 The source code for this Implementation Guide can be found on the [IHE PCC.ODH Github Repo](https://github.com/IHE/PCC.ODH).
 
-#### Cross Version Analysis
+### Cross Version Analysis
 
 {% include cross-version-analysis.xhtml %}
 
-#### Dependency Table
+### Dependency Table
 
 {% include dependency-table.xhtml %}
 
-#### Globals Table
+### Globals Table
 
 {% include globals-table.xhtml %}
 
-#### IP Statements
+### IP Statements
 
 {% include ip-statements.xhtml %}
