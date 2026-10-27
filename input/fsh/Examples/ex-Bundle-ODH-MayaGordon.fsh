@@ -56,11 +56,11 @@ Example Occupational Data for Health Composition for Maya Gordon. The Occupation
 Usage: #example
 * status = #final
 * type = $loinc#74166-0 "Occupational summary note"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
 * date = "2026-10-20T15:00:00-04:00"
-* author = Reference(ex-PractitionerRole-ODH-SimoneHeps) "Simone Heps, MD, South Hospital"
+* author = Reference(http://example.org/fhir/PractitionerRole/ex-PractitionerRole-ODH-SimoneHeps) "Simone Heps, MD, South Hospital"
 * title = "Occupational Data for Maya Gordon"
-* custodian = Reference(ex-Organization-ODH-SouthHospital) "South Hospital"
+* custodian = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-SouthHospital) "South Hospital"
 * section.title = "Occupational Data"
 * section.text.status = #generated
 * section.text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Occupational Data for Maya Gordon</b></p><table class=\"grid\"><thead><tr><th>Observation</th><th>Value</th><th>Details</th><th>Date</th></tr></thead><tbody><tr><td>Employment status</td><td>Employed</td><td></td><td>2018-06-01 to present</td></tr><tr><td>Retirement date</td><td>2018-05-31</td><td>Retired from the US Army</td><td>Recorded 2026-10-20</td></tr><tr><td>Combat zone period</td><td>2005-04-01 to 2006-03-31</td><td>Deployed as an Army combat medic, non-commissioned officer</td><td>Recorded 2026-10-20</td></tr><tr><td>Usual work</td><td>Combat medic</td><td>Usual industry: US Army (Defence activities); duration: 20 years</td><td>Since 1998-06-15</td></tr><tr><td>Past or present job</td><td>Home care aide</td><td>Employer: Peachtree Home Care Services. Industry: Home care services for older adults (Social work activities without accommodation for the elderly and disabled). Work classification: Paid non-governmental work, not self-employed. Supervisory level: Worker. Job duties: Assist clients with bathing, dressing and moving between bed and chair; Remind clients to take their medications. Occupational hazards: Lifting and transferring clients (back and shoulder strain); Contact with infectious diseases. Work schedule: daytime shift. 5 days per week, 8 hours per day. Current job: yes</td><td>2018-06-01 to present</td></tr><tr><td>Past or present job</td><td>Combat medic, non-commissioned officer</td><td>Employer: United States Army, Fort Stewart. Industry: US Army (Defence activities). Work classification: Paid work, Armed Forces. Supervisory level: Supervisor (E-7). Job duties: Provide emergency trauma care in the field; Supervise and train junior medics. Occupational hazards: Blast and weapons noise; Smoke from open-air burn pits. Work schedule: variable shift. Current job: no</td><td>2004-06-01 to 2018-05-31</td></tr><tr><td>Past or present job</td><td>Combat medic</td><td>Employer: United States Army, Fort Stewart. Industry: US Army (Defence activities). Work classification: Paid work, Armed Forces. Supervisory level: Worker (E-4). Job duties: Provide emergency medical care to injured soldiers. Occupational hazards: Weapons noise. Work schedule: rotating shift with nights. Current job: no</td><td>1998-06-15 to 2004-05-31</td></tr><tr><td>Past or present job (household member: spouse, David Gordon)</td><td>Construction laborer</td><td>Employer: Southern Building Contractors. Industry: Residential renovation (Construction of buildings). Work classification: Paid non-governmental work, not self-employed. Supervisory level: Worker. Job duties: Demolition and site cleanup. Occupational hazards: Respirable crystalline silica dust; Lead dust from old paint, which can be carried home on work clothes. Work schedule: daytime shift. 5 days per week, 9 hours per day. Current job: yes</td><td>2009-03-02 to present</td></tr></tbody></table></div>"
@@ -80,8 +80,8 @@ Description: "Maya Gordon has been employed since 2018-06-01, after she retired 
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
 * code = $loinc#74165-2 "History of employment status NIOSH"
 * effectivePeriod.start = "2018-06-01"
 * valueCodeableConcept = $v3-ObservationValue#Employed "Employed"
@@ -93,8 +93,8 @@ Description: "Maya Gordon retired from the US Army on 2018-05-31, which ends her
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
 * code = $loinc#87510-4 "Date of Retirement"
 * effectiveDateTime = "2026-10-20"
 * valueDateTime = "2018-05-31"
@@ -107,8 +107,8 @@ Description: "Maya Gordon worked in a combat zone from 2005-04-01 to 2006-03-31,
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
 * code = $loinc#87511-2 "Combat zone AndOr hazardous duty work dates"
 * effectiveDateTime = "2026-10-20"
 * valuePeriod.start = "2005-04-01"
@@ -121,8 +121,8 @@ Description: "Maya Gordon's usual work is combat medic in the US Army, for a tot
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
 * code = $loinc#21843-8 "History of Usual Occupation"
 * effectivePeriod.start = "1998-06-15"
 * valueCodeableConcept = $ISCO08#0210 "Non-commissioned Armed Forces Officers"
@@ -140,9 +140,9 @@ Description: "Maya Gordon's job as home care aide (current job), 2018-06-01 to p
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
-* extension[employer].valueReference = Reference(ex-Organization-ODH-PeachtreeHomeCare) "Peachtree Home Care Services"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* extension[employer].valueReference = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-PeachtreeHomeCare) "Peachtree Home Care Services"
 * extension[isCurrentJob].valueBoolean = true
 * code = $loinc#11341-5 "History of Occupation"
 * effectivePeriod.start = "2018-06-01"
@@ -177,9 +177,9 @@ Description: "Maya Gordon's job as army combat medic, non-commissioned officer, 
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
-* extension[employer].valueReference = Reference(ex-Organization-ODH-USArmy) "United States Army, Fort Stewart"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* extension[employer].valueReference = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-USArmy) "United States Army, Fort Stewart"
 * extension[isCurrentJob].valueBoolean = false
 * code = $loinc#11341-5 "History of Occupation"
 * effectivePeriod.start = "2004-06-01"
@@ -212,9 +212,9 @@ Description: "Maya Gordon's job as army combat medic, 1998-06-15 to 2004-05-31."
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
-* extension[employer].valueReference = Reference(ex-Organization-ODH-USArmy) "United States Army, Fort Stewart"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* extension[employer].valueReference = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-USArmy) "United States Army, Fort Stewart"
 * extension[isCurrentJob].valueBoolean = false
 * code = $loinc#11341-5 "History of Occupation"
 * effectivePeriod.start = "1998-06-15"
@@ -243,12 +243,12 @@ Description: "Past or present job of Maya Gordon's spouse, David Gordon, who sha
 Usage: #example
 * status = #final
 * category[social-history] = $observation-category#social-history "Social History"
-* subject = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
-* performer = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
-* extension[employer].valueReference = Reference(ex-Organization-ODH-SouthernBuilders) "Southern Building Contractors"
+* subject = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* performer = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* extension[employer].valueReference = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-SouthernBuilders) "Southern Building Contractors"
 * extension[isCurrentJob].valueBoolean = true
 * code = $loinc#11341-5 "History of Occupation"
-* focus = Reference(ex-RelatedPerson-ODH-MayaGordon-Spouse) "David Gordon (spouse)"
+* focus = Reference(http://example.org/fhir/RelatedPerson/ex-RelatedPerson-ODH-MayaGordon-Spouse) "David Gordon (spouse)"
 * effectivePeriod.start = "2009-03-02"
 * valueCodeableConcept = $ISCO08#9313 "Building Construction Labourers"
 * valueCodeableConcept.text = "Construction laborer"
@@ -301,8 +301,8 @@ Usage: #inline
 * address.state = "GA"
 * address.postalCode = "30302"
 * address.country = "US"
-* generalPractitioner = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
-* managingOrganization = Reference(ex-Organization-ODH-SouthHospital) "South Hospital"
+* generalPractitioner = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* managingOrganization = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-SouthHospital) "South Hospital"
 
 Instance: ex-RelatedPerson-ODH-MayaGordon-Spouse
 InstanceOf: RelatedPerson
@@ -310,7 +310,7 @@ Title: "Example RelatedPerson David Gordon"
 Description: "David Gordon, Maya Gordon's spouse, who shares her home. Used as the focus of a household member Past or Present Job."
 Usage: #inline
 * active = true
-* patient = Reference(ex-Patient-ODH-MayaGordon) "Maya Gordon"
+* patient = Reference(http://example.org/fhir/Patient/ex-Patient-ODH-MayaGordon) "Maya Gordon"
 * relationship = $v3-RoleCode#HUSB "husband"
 * name.text = "David Gordon"
 * name.family = "Gordon"
@@ -362,8 +362,8 @@ Description: "Simone Heps, MD, as a general practitioner at South Hospital."
 Usage: #inline
 * active = true
 * period.start = "2005-06-15"
-* practitioner = Reference(ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
-* organization = Reference(ex-Organization-ODH-SouthHospital) "South Hospital"
+* practitioner = Reference(http://example.org/fhir/Practitioner/ex-Practitioner-ODH-SimoneHeps) "Simone Heps, MD"
+* organization = Reference(http://example.org/fhir/Organization/ex-Organization-ODH-SouthHospital) "South Hospital"
 * code = $ISCO08#2211 "Generalist Medical Practitioners"
 * specialty = $sct#394814009 "General practice"
 * telecom.system = #email

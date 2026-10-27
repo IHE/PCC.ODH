@@ -14,6 +14,7 @@
 11. The Maya Gordon example was reworked into a [document Bundle](Bundle-ex-Bundle-ODH-MayaGordon.html) with resolvable references, consistent dates, one occupation and industry code per value, a military job that matches the combat zone period and retirement date, a household member job, and a section narrative table.
 12. A diagram of the Composition structure was added to the home page.
 13. Open issues [ODH_005](issues.html#ODH_005) (household member work limited to child patients) and [ODH_006](issues.html#ODH_006) (Usual Work description and definition contradict each other on unpaid work) were added. Both will be brought to HL7; the profile text is unchanged until HL7 resolves them.
+14. Open issue [ODH_007](issues.html#ODH_007) (HL7 US ODH Composition entry slicing cannot be validated) was added, with a change request to bring to HL7 for the HL7 US ODH update. The [US Maya Gordon example](Bundle-ex-Bundle-ODH-US-MayaGordon.html), which conforms to both HL7 US ODH 1.3.0 and this profile, was added as the US National Extension example.
 
 #### Significant Text Changes
 1. Build Updates PCC-CP-322
